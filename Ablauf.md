@@ -247,143 +247,145 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
 [Weitere Tutorials zur Bibliothek](https://docs.pysimplegui.com/en/latest/cookbook/original/)
 
 
-Multithreading/Multiprocessing
+## 13. Multithreading/Multiprocessing
 
 Mit Abstand das komplizierteste Thema des Kurses, aber trotzdem wichtig für vernünftige Projekte.
 
-Multithreading
-Warum Multithreading?
-Beispiel an meinem Inventarsystem
-Unterschied zwischen Multithreading und Multiprocessing
-Numba jit
-Zusätzliche Threads starten
-daemonic Threads
-Informationen vom einen Thread zum nächsten Transportieren
-Argumente an den Thread übergeben
-Globale Variablen
-Übung 13.1
-Synchronisation: https://docs.python.org/3/library/threading.html#event-objects
-Warum ist Synchronisation nötig?
-.join()
-Lock
-Semaphore
-Barrier
-Event (Ein-/Ausschalter)
-Timer
-cancel
-Übungen 13.2, 13.3
-Threads mit PySimpleGUI
-Übung 13.4 (Wird übersprungen)
+#### Multithreading
+- Warum Multithreading?
+  - Beispiel an meinem Inventarsystem
+- Unterschied zwischen Multithreading und Multiprocessing
+- Numba jit
+- Zusätzliche Threads starten
+  - daemonic Threads
+- Informationen vom einen Thread zum nächsten Transportieren
+  - Argumente an den Thread übergeben
+  - Globale Variablen
+- Übung 13.1
 
-Multiprocessing
-Was ist anders zum Multithreading?
-Pools
-map
-https://docs.python.org/3.11/library/multiprocessing.html#module-multiprocessing.pool
-Übung 13.5
+#### Synchronisation
+- https://docs.python.org/3/library/threading.html#event-objects
+- Warum ist Synchronisation nötig?
+- .join()
+- Objekte zur Synchronisation
+  - Lock
+  - Semaphore
+  - Barrier
+  - Event (Ein-/Ausschalter)
+- Timer
+  - cancel
+- Übungen 13.2, 13.3
+- Threads mit PySimpleGUI
+- Übung 13.4
 
-
-Iterators
-
-Wofür Generators?
-Aufbau von Iteratoren
-iter, next und StopIteration
-Erstes Element aus einem Generator bekommen
-Einfache Generator mit Funktionen
-Wie funktionieren zip und enumerate?
-Übung 14.1
-Stand 06.08.2024
-Iteratoren aus eigener Klasse		(Wird übersprungen)
-Generator Comprehension		(Wird übersprungen)
-
-RegEx
-
-Wofür RegEx?
-Aufteilung: 1. Einheit nur RegEx, 2. Einheit Kombination mit Python
-… Präsentation über RegEx
+#### Multiprocessing
+- Was ist anders zum Multithreading?
+- Pools
+  - map
+  - https://docs.python.org/3.11/library/multiprocessing.html#module-multiprocessing.pool
+- Übung 13.5
 
 
-Numpy und Pyplot 
+## 14. Iterators und Generators
 
-Liste in Array umwandeln
-Einfache Array-Erstellung
-zeros, ones, full, empty
-_like
-arange, linspace
-astype
-Shape
-reshape
-flatten
-Transponieren
-Grundlegendes Indexen
-Wiederholung zum normalen Indexen
-Teil eines Arrays ersetzen
-Gesamtes Array auf eine Zahl setzen
-Übung 16.1
-Rechnen mit Numpy-Arrays
-sin, cos
-Grundlegende Plots
-plt.plot
-plt.scatter
-Mehrere Linien in ein Fenster
-Stand 03.09.2024
-Übung 16.2
-Mehrdimensionale Plots
-Was sind Skalarfelder?
-Was sind Vektorfelder?
-meshgrid
-pcolor
-pcolormesh
-colorbar
-contour
-quiver
-streamplot
-Übung 16.3
-Boolsche Funktionen
-Indexen nach booleschen Funktionen
-np.where
-& und |
-Übung 16.4, 16.5
-Stand 17.09.2024
-Mathematische Funktionen
-min, max
-mean
-sum
-log, log10, ln
-Achsen bei den Funktionen angeben
-Random
-plt.hist
-bins
-Gleichverteilung (random.random)
-randint
-Normalverteilung (random.normal)
-np.clip
-random.choice
-Übung 16.7 + 16.8 (Ja, vor 16.6)
-Datetime
-dt.date und dt.datetime
-datetime in date umwandeln
-.day, .month, .year, etc.
-.now()
-.replace()
-Rechnen mit Daten
-- (Minus)
-< > (Vergleiche)
-Timedelta
-Strings in Daten umwandeln und umgekehrt
-https://www.geeksforgeeks.org/python-strftime-function/
-Übung 16.6
-Anhängen
-concatinate
-Plots verschönern
-Subplots
-Legend
-Title
-xLabel, yLabel
-xTicks, yTicks
+- Grundlegende Idee hinter Generatoren?
+- Aufbau von Iteratoren
+- iter, next und StopIteration
+- Erstes Element aus einem Iterator bekommen
+- Einfache Generator mit Funktionen
+  - Wie funktionieren zip und enumerate?
+- Übung 14.1
+- Iteratoren aus eigener Klasse
+- Generator Comprehension
+
+## 15. RegEx
+
+- Wofür RegEx?
+- Aufteilung: 1. Einheit nur RegEx, 2. Einheit Kombination mit Python
+- Regex steht nicht im Ablauf, dafür hab ich eine Präsentation
+
+## 16. Numpy und Pyplot 
+
+- Liste in Array umwandeln
+- Einfache Array-Erstellung
+- zeros, ones, full, empty
+- _like
+- arange, linspace
+- astype
+- Shape
+  - reshape
+  - flatten
+  - Transponieren
+  - Grundlegendes Indexen
+- Wiederholung zum normalen Indexen
+- Teil eines Arrays ersetzen
+  - Gesamtes Array auf eine Zahl setzen
+- Übung 16.1
+- Rechnen mit Numpy-Arrays
+  - sin, cos
+- Grundlegende Plots
+  - plt.plot
+  - plt.scatter
+  - Mehrere Linien in ein Fenster
+  - Übung 16.2
+- Mehrdimensionale Plots
+  - Was sind Skalarfelder?
+  - Was sind Vektorfelder?
+  - 2d Plots
+    - meshgrid
+    - pcolor
+    - pcolormesh
+    - colorbar
+    - contour
+    - quiver
+    - streamplot
+- Übung 16.3
+- Boolsche Funktionen
+  - Indexen nach booleschen Funktionen
+  - np.where
+  - & und |
+  - Übung 16.4, 16.5
+- Mathematische Funktionen
+  - min, max
+  - mean
+  - sum
+  - log, log10, ln
+  - Achsen bei den Funktionen angeben
+#### np.Random
+- plt.hist
+  - bins
+- Verteilungen
+  - Gleichverteilung (random.random)
+  - randint
+  - Normalverteilung (random.normal)
+  - np.clip
+  - random.choice
+- Übung 16.7 + 16.8 (Ja, vor 16.6)
+#### Datetime
+- dt.date und dt.datetime
+  - datetime in date umwandeln
+  - .day, .month, .year, etc.
+  - .now()
+  - .replace()
+- Rechnen mit Daten
+- \- (Minus)
+- < > (Vergleiche)
+  - Timedelta
+- Strings in Daten umwandeln und umgekehrt
+  - https://www.geeksforgeeks.org/python-strftime-function/
+- Übung 16.6
+- Anhängen
+  - concatinate
+- Plots verschönern
+  - Subplots
+  - Legend
+  - Title
+  - xLabel, yLabel
+  - xTicks, yTicks
 
 
-Spezielle Themen
+
+## X. Unsortiertes
 
 Dataklassen
 Decorators
@@ -392,21 +394,10 @@ exec
 hash
 Closures
 
-
-Hilfreiche Module
-
-Hier gehen wir einige kleinere Module durch, die man immer mal wieder braucht
-
 Fernet
 Datetime
 strsimpy (String matching)
 pyautogui
-
-Pyplot
-
-X. Anderes/Fortgeschrittenes
-
-Themenübergreifende Inhalte, die man erst nach den Grundlagen wirklich verstehen kann
 
 Lambda-Funktionen
 filter
