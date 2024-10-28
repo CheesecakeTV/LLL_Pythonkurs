@@ -387,6 +387,8 @@ Mit Abstand das komplizierteste Thema des Kurses, aber trotzdem wichtig für ver
 
 ## X. Unsortiertes
 
+### Alles was mir mal eingefallen ist, aber ich nicht weiß wohin damit
+
 Dataklassen
 Decorators
 staticmethod
