@@ -9,10 +9,12 @@
 
 ## Übung 7.2
 
-Lade folgenden Namensliste herunter: https://drive.google.com/file/d/1kgRkdHwKsAKHbSgy7UxDl57Iq5qEpSHy/view?usp=sharing
+Lade dir `Materialien/Namenliste.txt` aus dem GutHub herunter
 
-1. Wandel die Namensliste in eine Python-Liste um.
+1. Importiere die Liste in dein Skript und wandle sie in eine Python-Liste um.
 2. Speichere die Liste mithilfe der json-Bibliothek als json-Datei ab.
+3. Welche der Vornamen beginnt mit K, endet mit n und enthält ein Doppel-e? 
+
 
 
 
