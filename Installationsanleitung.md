@@ -54,7 +54,7 @@ NICHT AUF HERUNTERLADEN KLICKEN, sonst hast du die kostenpflichtige Version.
 2. Scrolle auf der Seite nach unten, bis du `PyCharm Community Edition` findest (Schwarzer Hintergrund)
 3. Darunter gibt es den Knopf "Herunterladen". Den anklicken, um die korrekte Version herunterzuladen.
 4. Öffne den Installer. Lass alles auf auf default, bis du die Option `Add "bin" folder to the PATH` (Siehe Bild) angekommen bist.
-Diese Option musst du auswählen.
+Diese Option musst du auswählen.\
 ![](img/PyCharmInstallerPinToPath.png)
 5. Danach einfach weiter durchklicken, sollte selbsterklärend sein.
 
