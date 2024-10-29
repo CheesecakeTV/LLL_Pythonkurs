@@ -6,6 +6,11 @@
 Hab ich alle hier [hier](https://www.markdownguide.org/basic-syntax/ "Geschafft") her.\
 Hover mit der Maus mal über den Link.
 
+| n | n + 1 |
+|:--|------:|
+| 1 |     2 |
+| 2 |     3 |
+
 > Blockquote
 > 
 > Wirklich Blockquote
