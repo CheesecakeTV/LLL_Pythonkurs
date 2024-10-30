@@ -10,12 +10,19 @@
 - Auf Fragebogen eingehen
   - Diesmal viele Studenten dabei
 - Grober Ablauf des Kurses
+  - Fragen stellen im Kurs, gerne mündlich
   - Dauer des Kurses
   - Allgemeiner und Fortgeschrittener Teil
     - Anwendungen eher im fortgeschrittenen Teil
+    - Anmerkungen zu Themen die für Programmierer anderer Sprachen relevant sind
   - Übungen und Zusatzübugen
+    - "Am schlechtesten sind die Mittelguten"
+    - Einfache und schwierige Teilaufgaben
 - Allgemein Vor- und Nachteile von Python
   - Einfach, aber langsam
+  - Compiler- vs Interpretersprache
+  - Anwendungsfälle von Python
+    - Mit dem Inventarsystem angeben
 
 
 ### Python Terminal
