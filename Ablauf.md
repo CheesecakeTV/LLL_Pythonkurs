@@ -295,6 +295,7 @@ Mit Abstand das komplizierteste Thema des Kurses, aber trotzdem wichtig für ver
 - Einfache Generator mit Funktionen
   - Wie funktionieren zip und enumerate?
 - Übung 14.1
+- Bibliothek [Itertools](https://docs.python.org/3/library/itertools.html)
 - Iteratoren aus eigener Klasse
 - Generator Comprehension
 
