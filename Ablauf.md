@@ -4,18 +4,14 @@
 
 ## 1. Vorbereitung
 
-- Prüfen, ob Python installiert ist
-- Python installieren und nochmal prüfen
-- Pycharm installieren
+- Installationsanleitung ist im Repo
 - Vorteile von PyCharm
-- Gelegenheit es zu installieren
-
-
+- Während Nachzügler es installieren, Einleitung in den Kurs geben.
 - Allgemein Vor- und Nachteile von Python
   - Einfach, aber langsam
 
 
-- Python Terminal
+### Python Terminal
   - Rechnen mit Variablen
   - int deklarieren
   - `+ - * / ** //`
