@@ -7,6 +7,13 @@
 - Installationsanleitung ist im Repo
 - Vorteile von PyCharm
 - Während Nachzügler es installieren, Einleitung in den Kurs geben.
+- Auf Fragebogen eingehen
+  - Diesmal viele Studenten dabei
+- Grober Ablauf des Kurses
+  - Dauer des Kurses
+  - Allgemeiner und Fortgeschrittener Teil
+    - Anwendungen eher im fortgeschrittenen Teil
+  - Übungen und Zusatzübugen
 - Allgemein Vor- und Nachteile von Python
   - Einfach, aber langsam
 
