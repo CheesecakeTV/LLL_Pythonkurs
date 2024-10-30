@@ -11,6 +11,7 @@ Wenn ja, wann ist die resultierende bool True und wann False?
 
 ## Übung 2.2
 
+Nutze bei dieser Übung deine IDE (z.B. PyCharm)
 Tipp: Es schadet nie, hinter input() ein .strip() anzuhängen.
 
 Implementiere Folgendes:

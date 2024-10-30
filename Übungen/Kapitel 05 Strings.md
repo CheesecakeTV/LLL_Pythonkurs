@@ -24,14 +24,14 @@ Optional: Verwende keine Schleifen.\
 ## Übung 5.2
 
 Der Nutzer gibt irgendeine Zeichenfolge ein.
-1. Das Programm gibt im ganzen Satz aus, wie lang die Eingabe ist.
+1. Das Programm gibt im ganzen Satz aus, wie lang die Eingabe ist:
     ```
     >> Hallo Welt
     Die Eingabe hat 10 Zeichen!
     ```
 2. Das Programm gibt danach die Zeichenfolge so oft hintereinander aus, dass sie 20 Zeichen lang ist.
 Die Zeichenfolge darf am Ende abgeschnitten werden, um genau auf 20 Zeichen kommen zu können.\
-Optional: Verwende keine Schleifen\
+Optional: Verwende keine Schleifen. Es gibt eine banal einfache Lösung, aber darauf muss man erstmal kommen...\
 Beispiel:
     ```
     >> 12345
@@ -44,9 +44,9 @@ Beispiel:
 
 ## Übung 5.3
 
-In dieser Übung erstellen wir einen sehr einfachen Geheimschrift-Übersetzer.
+In dieser Übung erstellen wir einen sehr einfachen (bzw. schlechten) Geheimschrift-Übersetzer.
 Dieser erkennt selbst, ob eine Eingabe bereits verschlüsselt ist oder nicht.
-    
+
 Die Verschlüsselung funktioniert so:
 Liest man nur jedes 2. Zeichen (beginnend bei 0) des verschlüsselten Wortes, erhält man das Wort.
 Liest man nur jedes 2. Zeichen (beginnend bei 1) des verschlüsselten Wortes, erhält man das Wort rückwärts.

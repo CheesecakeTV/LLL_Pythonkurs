@@ -5,21 +5,27 @@
 ## 1. Vorbereitung
 
 - Installationsanleitung ist im Repo
+  - Kurz mal durchs Repo blättern
 - Vorteile von PyCharm
 - Während Nachzügler es installieren, Einleitung in den Kurs geben.
 - Auf Fragebogen eingehen
   - Diesmal viele Studenten dabei
 - Grober Ablauf des Kurses
   - Fragen stellen im Kurs, gerne mündlich
+    - Fachwörter, die ich aus Gewohnheit verwende
+  - Fängt einfach an, wird immer komplexer
+    - Wichtig, die Grundlagen ernst zu nehmen
   - Dauer des Kurses
   - Allgemeiner und Fortgeschrittener Teil
     - Anwendungen eher im fortgeschrittenen Teil
     - Anmerkungen zu Themen die für Programmierer anderer Sprachen relevant sind
   - Übungen und Zusatzübugen
     - "Am schlechtesten sind die Mittelguten"
-    - Einfache und schwierige Teilaufgaben
+    - Einfache und schwierige Teilaufgaben ("Optional")
+    - Lesen hilft, nicht überfordern lassen
 - Allgemein Vor- und Nachteile von Python
   - Einfach, aber langsam
+    - "Python-Magie"
   - Compiler- vs Interpretersprache
   - Anwendungsfälle von Python
     - Mit dem Inventarsystem angeben
@@ -91,7 +97,7 @@
   - Listen "Multiplizieren"
 - del
 - Übung 4.1
-- .copy()
+- .copy() (Wird in der Übung erkundet)
 - Element appendieren
   - Häufiger Fehler: Liste an Liste appendieren
 - len()
@@ -123,6 +129,7 @@
 - break, continue
 - for-Schleifen
 - range()
+  - Typecasten in eine Liste
 - enumerate()
 - zip()
 - Übung 6.1
@@ -134,6 +141,7 @@
 
 - Was sind Dateiendungen?
 - Dateien auslesen
+  - Pfade bei Unterordnern
   - with open… as f: …
 - Übung 7.1
 - Ordner erstellen

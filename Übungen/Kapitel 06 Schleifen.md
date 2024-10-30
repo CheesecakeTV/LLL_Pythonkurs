@@ -4,7 +4,9 @@
 Die Teilaufgaben sind unabhängig voneinander lösbar, also halt dich nicht zu lange daran auf.
 
 1. Der Nutzer gibt einen Satz auf der Konsole ein.
-Zurückgegeben wird der gleiche Satz, nur dass jeder Anfangsbuchstabe groß geschrieben wurde.
+Zurückgegeben wird der gleiche Satz, nur dass jeder Anfangsbuchstabe groß geschrieben wurde.\
+Tipp: Sieh dir an, was .capitalize() macht.\
+Optional: Verwende nicht .capitalize() (Wow, danke für den Tipp)
 
     Beispiel:
     > \>> Hallo, ich programmiere Python\
@@ -12,7 +14,7 @@ Zurückgegeben wird der gleiche Satz, nur dass jeder Anfangsbuchstabe groß gesc
 
 2. Doppelte Leerzeichen sollen entfernt werden. \
 Rechne damit, dass der Nutzer nie mehr als 2 Leerzeichen hintereinander schreibt.\
-Optional: Rechne doch nicht damit, entferne alle mehrfachen Leerzeichen, selbst wenn mehr als 2 hintereinander stehen.
+Optional: Rechne doch nicht damit, entferne alle mehrfachen Leerzeichen, selbst wenn mehr als 2 hintereinander stehen (Die optionalen Teile sind diesmal sehr kreativ).
 Alle Großbuchstaben sollen ausgegeben werden:
     > \>> Hallo ich Programmiere PYTHON\
     HPPYTHON

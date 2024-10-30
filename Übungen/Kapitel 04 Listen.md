@@ -19,10 +19,9 @@ print(y)
 x[0] = 10
 print(y)
 ```
-8. Was fällt auf? Wie deutest du das Ergebnis?
+8. Welche Ausgabe hättest du erwartet? Wie deutest du die Ausgabe?
 9. Ersetze die 2. Zeile durch `= x.copy()` und führe alles erneut aus.\
 Was bewirkt `.copy()` ?
-
 
 
 ## Übung 4.2
@@ -32,7 +31,7 @@ Diese werden in einer Liste gespeichert.\
 Gibt der Nutzer nichts ein (""), stoppt die Eingabe und alle eingegebenen Zahlen werden der Reihe nach ausgegeben.
 
 2. Neben der Zahl soll die Summe aller bisherigen Zahlen ausgegeben werden.\
-Tipp: Du kannst das Trennzeichen der print-Funktion beeinflussen, indem du das optionale Argument sep veränderst: `print(zahl1, zahl2, sep = “ - “)`.
+Tipp: Du kannst das Trennzeichen der print-Funktion beeinflussen, indem du das optionale Argument sep veränderst: `print(zahl1, zahl2, sep = “ - “)`.\
 Beispiel:
     ```
     1 - 1
