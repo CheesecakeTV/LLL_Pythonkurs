@@ -23,6 +23,7 @@
     - "Am schlechtesten sind die Mittelguten"
     - Einfache und schwierige Teilaufgaben ("Optional")
     - Lesen hilft, nicht überfordern lassen
+    - Ziel ist es Können aufzubauen, nicht Python-Akademiker zu werden
 - Allgemein Vor- und Nachteile von Python
   - Einfach, aber langsam
     - "Python-Magie"
@@ -76,7 +77,7 @@
   - and, or
   - not
 - Übung 3.1
-
+- Umfrage zum Kurs
 
 - if-Verzweigung
   - else
@@ -136,6 +137,7 @@
 - List Comprehension: Einzeilige for-Schleifen zum Erstellen einer Liste
 - Unterstrich als Variablenname
 - Übungen 6.2
+- Umfrage zum Kurs
 
 ## 7. Dateien
 
@@ -173,6 +175,7 @@
   - list[]
   - dict[int:int]
 - Übung 9.1
+- Umfrage zum Kurs
 
 ### Lokale und Globale Variablen
 
@@ -218,6 +221,7 @@
 - Mehrere Funktions-Rückgaben
 - Lambda-Funktionen
 - Übungen 11.5, 9.4
+- Umfrage zum Kurs
 
 # Ende der Grundlagen
 ### Ab jetzt bist du fortgeschritten. Herzlichen Glückwunsch!
@@ -264,6 +268,7 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
 
 [Weitere Tutorials zur Bibliothek](https://docs.pysimplegui.com/en/latest/cookbook/original/)
 
+- Umfrage zum Kurs
 
 ## 13. Multithreading/Multiprocessing
 
@@ -347,6 +352,7 @@ Mit Abstand das komplizierteste Thema des Kurses, aber trotzdem wichtig für ver
   - plt.scatter
   - Mehrere Linien in ein Fenster
   - Übung 16.2
+- Umfrage zum Kurs
 - Mehrdimensionale Plots
   - Was sind Skalarfelder?
   - Was sind Vektorfelder?
