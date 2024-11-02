@@ -4,14 +4,14 @@
 Erstelle die Klasse Person.
 
 1. Jede Person soll einen Namen (Voller Name), ein Geburtsjahr und ein Geschlecht haben. Alles soll beim Erstellen der Person definiert werden.
-2. Schreibe die Methode `getAlter(jahr:int)->int`. Diese gibt zurück, wie alt die Person im entsprechenden Jahr ist (Einfach nur Jahr minus Geburtsjahr).
+2. Schreibe die Methode `getAlter(jahr:int) -> int`. Diese gibt zurück, wie alt die Person im entsprechenden Jahr ist (Einfach nur Jahr minus Geburtsjahr).
 3. Bei der Initialisierung soll der übergebene Name nach Vor- und Nachname aufgeteilt und im Objekt gespeichert werden (jeweils eigene Variable/Attribut). Nimm dazu an, dass die Person nur einen Vornamen und einen Nachnamen hat, z.B. “Peter Blümke”. 
-4. Schreibe die Methode `print()->None`. Diese gibt die Daten der Person lesbar auf der Konsole aus.
+4. Schreibe die Methode `print() -> None`. Diese gibt die Daten der Person lesbar auf der Konsole aus.
 5. Schreibe die Methode heirate(diePerson). Dieser wird ein anderes Person-Objekt übergeben, welches gespeichert wird.\
 Beispielaufruf:
     ```py
-    personA = Person(“Walter Frei”,1980,”M”)
-    personB = Person(“Marie Steinke”,1985,”W”)
+    personA = Person(“Walter Frei”, 1980, ”M”)
+    personB = Person(“Marie Steinke”, 1985, ”W”)
     personA.heirate(personB)
     ```
    1. Passe die Methode print() an, sodass der Name des Ehepartners mit ausgegeben wird. Es genügt, wenn Vor- und Nachname ausgegeben werden.
@@ -57,9 +57,9 @@ Implementiere folgende Funktionalitäten:
 
 1. Jeder Vektor erhält bei der initialisierung mindestens 1 Element:
     ```py
-    v1 = Vektor(2,6,3) # v1, v2 und v3 werden in weiteren Beispielen genutzt
-    v2 = Vektor(1,2,3)
-    v3 = Vektor(1,2,3,4)
+    v1 = Vektor(2, 6, 3) # v1, v2 und v3 werden in weiteren Beispielen genutzt
+    v2 = Vektor(1, 2, 3)
+    v3 = Vektor(1, 2, 3, 4)
     ```
 
 2. Die Anzahl an übergebenen Elementen wird als “grad” abgespeichert.
@@ -95,7 +95,7 @@ Vektor + Vektor soll also Vektor ergeben.
     ```
 
 7. Wird ein Vektor mit einem float/int multipliziert, werden die Elemente einzeln Multipliziert:\
-`v1 * 5 	# = Vektor(2 * 5, 6 * 5, 3 * 5) = Vektor(10,30,15)`
+`v1 * 5 	# = Vektor(2 * 5, 6 * 5, 3 * 5) = Vektor(10, 30, 15)`
 8. Ein Vektor “hoch 2” gibt das Skalarprodukt mit sich selbst aus:\
 `v1 ** 2 	# = v1 * v1 = 49`
    1. Wird eine andere Potenz als 2 übergeben, wird ein ValueError ausgelöst:\
@@ -119,7 +119,7 @@ Vektor + Vektor soll also Vektor ergeben.
 13. Als bool soll der Vektor True sein, wenn seine Länge (abs) nicht 0 ist:
     ```py
     bool(v1) # True
-    bool(Vektor(0,0,0)) # False
+    bool(Vektor(0, 0, 0)) # False
     ```
 
 ## Übung 11.5
@@ -135,16 +135,16 @@ def dieFunktion(abstandZu:int):
    pass
 
 # Ab hier nichts ändern!!!
-x = [1,65,7,3,4,2,3,6,8,43,4,-2,-10,5,2,-13]
+x = [1, 65, 7, 3, 4, 2, 3, 6, 8, 43, 4, -2, -10, 5, 2, -13]
 x.sort(key=dieFunktion(5))
-print("Abstand zu 5:",x)
+print("Abstand zu 5:", x)
 x.sort(key=dieFunktion(10))
-print("Abstand zu 10:",x)
+print("Abstand zu 10:", x)
 x.sort(key=dieFunktion(-3))
-print("Abstand zu -3:",x)
+print("Abstand zu -3:", x)
 ```
 
-2. Schreibe die Funktion `log(zuLoggen:any,vortext:str=””)`.
+2. Schreibe die Funktion `log(zuLoggen:any, vortext:str=””)`.
 Die Funktionsweise lässt sich am Besten durch ein Beispiel zeigen:\
     ```py
     x = log(5) # x wird auf 5 gesetzt und “5” wird auf der Konsole ausgegeben.
@@ -154,7 +154,7 @@ Die Funktionsweise lässt sich am Besten durch ein Beispiel zeigen:\
     Wird ein Vortext übergeben, wird dieser vor der Ausgabe ausgegeben.
 
    1. Erstelle die globale Variable loggen. Ist loggen False, soll die log-Funktion nichts auf der Konsole ausgeben.
-3. Schreibe die Funktion `istAhnlich(derText:str, suchtext:str)->bool`. 
+3. Schreibe die Funktion `istAhnlich(derText:str, suchtext:str) -> bool`. 
 Grundlegend gibt sie True zurück, wenn der Suchtext im übergebenen Text enthalten ist. Es ist dabei aber erlaubt, dass ein zusätzlicher Buchstabe im Suchtext enthalten ist. Groß- und Kleinschreibung wird ignoriert.\
 Beispiele:
     ```py

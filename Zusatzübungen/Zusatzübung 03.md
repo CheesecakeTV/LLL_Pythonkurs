@@ -17,27 +17,27 @@ Tipp: Einige der Teilaufgaben bauen aufeinander auf. Mach dir nicht mehr Mühe a
 Groß- und Kleinschreibung wird immer ignoriert.
 
 1. `genau`: True, wenn s1 genau mit s2 übereinstimmt.\
-`genau(“hallo”,”Hallo Welt”)` gibt False zurück.\
+`genau(“hallo”, ”Hallo Welt”)` gibt False zurück.\
 `genau(“hallo welt”, “Hallo Welt”)` gibt True zurück.
 2. `normal`: Eine “normale” Suche. True, wenn s1 in s2 enthalten ist.\
-`normal("hallo","Hallo Welt")` gibt True zurück.\
-`normal("hllo" ,"Hallo Welt")` gibt False zurück.
+`normal("hallo", "Hallo Welt")` gibt True zurück.\
+`normal("hllo" , "Hallo Welt")` gibt False zurück.
 3. `buchstabeVergessen`: Wie “normal”, allerdings darf ein Buchstabe im Suchstring ausgelassen werden.\
-`buchstabeVergessen("hallo","Hallo Welt")` gibt irgendwas (egal ob True oder False) zurück.\
-`buchstabeVergessen("hllo" ,"Hallo Welt")` gibt True zurück.
+`buchstabeVergessen("hallo", "Hallo Welt")` gibt irgendwas (egal ob True oder False) zurück.\
+`buchstabeVergessen("hllo" , "Hallo Welt")` gibt True zurück.
 4. `buchstabeZuViel`: Wir “normal”, allerdings darf an irgendeiner Stelle ein Buchstabe zu viel im Suchstring enthalten sein.\
-`buchstabeZuViel("hallo","Hallo Welt")` gibt irgendwas zurück.\
-`buchstabeZuViel("halo welt" ,"Hallo Welt")` gibt False zurück.\
-`buchstabeZuViel("hasllo" ,"Hallo Welt")` gibt True zurück.
+`buchstabeZuViel("hallo", "Hallo Welt")` gibt irgendwas zurück.\
+`buchstabeZuViel("halo welt", "Hallo Welt")` gibt False zurück.\
+`buchstabeZuViel("hasllo", "Hallo Welt")` gibt True zurück.
 5. `buchstabeVertauscht`: Wie “normal”, allerdings darf ein Buchstabe durch einen Anderen ersetzt sein.\
-`buchstabeVertauscht("hallo","Hallo Welt")` gibt irgendwas zurück.\
-`buchstabeVertauscht("hsllo" ,"Hallo Welt")` gibt True zurück.\
-`buchstabeVertauscht("hsllp" ,"Hallo Welt")` gibt False zurück.
+`buchstabeVertauscht("hallo", "Hallo Welt")` gibt irgendwas zurück.\
+`buchstabeVertauscht("hsllo", "Hallo Welt")` gibt True zurück.\
+`buchstabeVertauscht("hsllp", "Hallo Welt")` gibt False zurück.
 6. `buchstabeUmgedreht`: Wie “normal”, allerdings darf ein Buchstabe mit seinem Nachbarn vertauscht sein.\
-`buchstabeUmgedreht("hallo","Hallo Welt")` gibt irgendwas zurück.
-`buchstabeUmgedreht("hsllo" ,"Hallo Welt")` gibt False zurück.
-`buchstabeUmgedreht("halol" ,"Hallo Welt")` gibt True zurück.
-`buchstabeUmgedreht("ahllo" ,"Hallo Welt")` gibt True zurück.
+`buchstabeUmgedreht("hallo", "Hallo Welt")` gibt irgendwas zurück.
+`buchstabeUmgedreht("hsllo", "Hallo Welt")` gibt False zurück.
+`buchstabeUmgedreht("halol", "Hallo Welt")` gibt True zurück.
+`buchstabeUmgedreht("ahllo", "Hallo Welt")` gibt True zurück.
 7. Schreibe jetzt ein Skript, welches alle Namen mithilfe der implementierten Funktionen durchsucht. Es soll eine Liste ausgegeben werden, welche nach Genauigkeit der Treffer sortiert ist:\
 Sehr genau: `genau`\
 Danach: `normal`\
