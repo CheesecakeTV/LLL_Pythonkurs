@@ -44,7 +44,7 @@ Danach: `normal`\
 Danach: `buchstabeVergessen`, `buchstabeZuViel`, `buchstabeVertauscht` (Alle gleichwertig)\
 Ungenau: `buchstabeUmgedreht`
 
-Was du dadurch implementiert hast, ist eine sehr vereinfachte Variante des “Weighted Levenshtein” - Algorithmus.
+Was du dadurch implementiert hast, ist eine vereinfachte Variante des “Weighted Levenshtein” - Algorithmus.
 
 Es gibt allerdings noch viele andere Algorithmen für solche Anwendungsfälle. \
 Mein klarer Favorit ist “Cosine Simmilarity”, also die Kosinus-Ähnlichkeit. Dieser Algorithmus ist sehr kompliziert, aber glücklicherweise müssen wir ihn nicht verstehen, um ihn anzuwenden.
