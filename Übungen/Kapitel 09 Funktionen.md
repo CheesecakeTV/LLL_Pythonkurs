@@ -20,13 +20,13 @@ Beispiel: listeAusgeben([“Hallo”,”Welt”,5,10,2]) gibt folgendes aus:
 6. setzeElemente(dasDict:dict,**neueWerte): Überschreibt/Erstellt mehrere Elemente des übergebenen Dictionaries.\
 Beispielcode:
     ```py
-    test = {“Hallo”:”Welt”,”test”:”test”}
-    setzeElemente(test,Hallo=15,DerKey=”DerTest”)
-    print(test) # Gibt {“Hallo”:15,”test”:”test”,”DerKey”:”DerTest”} aus.
+    test = {“Hallo”:”Welt”, ”test”:”test”}
+    setzeElemente(test, Hallo=15, DerKey=”DerTest”)
+    print(test) # Gibt {“Hallo”:15, ”test”:”test”, ”DerKey”:”DerTest”} aus.
     ```
 
 
-7. Schreibe die Funktion `splitTwice(derString:str,char1:str,char2:str)`. 
+7. Schreibe die Funktion `splitTwice(derString:str, char1:str, char2:str)`. 
 Diese wendet die Funktion Split zwei Mal auf `derString` an, erst mit `char1`, dann mit `char2`.\
 Beim ersten Split wird eine Liste erstellt, beim zweiten Split werden die einzelnen Elemente bei char2 gesplittet.\
 Beispiel: `splitTwice(“Hallo Welt|Das ist ein Test|Granatapfel”, ”|”, ” “)`\
@@ -43,7 +43,7 @@ def dieFunktion(a:int)->int:
 	pass
 
 # Unter dieser Zeile nichts verändern!!!
-x = [1,5,3,-41,-7,5,0,-4,89,-2,1234,3,0,6,-4,1,-2,5,10,-25,103]
+x = [1, 5, 3, -41, -7, 5, 0, -4, 89, -2, 1234, 3, 0, 6, -4, 1, -2, 5, 10, -25, 103]
 print(list(map(dieFunktion,x))) # Für dich als Hilfe
 x.sort(key=dieFunktion)
 print(x)

@@ -7,9 +7,9 @@ einheitlicheTiefe = True # Ob die Tiefe zufällig ist
 maxStrangeProKnoten = 10 # Wie viele Unterknoten jeder Knoten haben soll
 heuhaufenPrinten = True # Ob der Heuhaufen auf die Konsole ausgegeben werden soll
 
-print("Hier ist die Nadel: ",end="")
+print("Hier ist die Nadel: ", end="")
 
-def gibUnterknoten(tiefe=0,duHastNadel=True):
+def gibUnterknoten(tiefe=0, duHastNadel=True):
     if tiefe >= maxTiefe:
         if duHastNadel:
             print("Nadel")
@@ -17,19 +17,19 @@ def gibUnterknoten(tiefe=0,duHastNadel=True):
         return "Heu"
 
     if not einheitlicheTiefe:
-        tiefe += r.randint(tiefe,maxTiefe + 1) == tiefe
+        tiefe += r.randint(tiefe, maxTiefe + 1) == tiefe
 
     ruckgabe = []
     knotenZahl = r.randint(1,maxStrangeProKnoten)
 
     if duHastNadel:
         nadel = r.randint(0,knotenZahl)
-        print(nadel,end=" - ")
+        print(nadel, end=" - ")
     else:
         nadel = -1
 
     for i in range(knotenZahl + 1):
-        ruckgabe.append(gibUnterknoten(tiefe=tiefe + 1,duHastNadel=(i == nadel)))
+        ruckgabe.append(gibUnterknoten(tiefe=tiefe + 1, duHastNadel=(i == nadel)))
 
     return ruckgabe
 

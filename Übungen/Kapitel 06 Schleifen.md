@@ -35,7 +35,7 @@ Die Teilaufgaben sind unabhängig voneinander lösbar.
 
 Kopiere folgenden Codeausschnitt in ein leeres Skript:
 ```py
-y = [1,6,4,4,3,1,2,6,4,4,7,2,3,8,4,3,6]
+y = [1, 6, 4, 4, 3, 1, 2, 6, 4, 4, 7, 2, 3, 8, 4, 3, 6]
 x = list(range(len(y)))
 ```
 
