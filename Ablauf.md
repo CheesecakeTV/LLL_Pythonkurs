@@ -44,8 +44,6 @@
 
 - Oberfläche erklären (Ausgabefenster)
 - Ein Skript ausführen
-
-
 - print()
   - Klammern hinter Funktionen
   - Mehrere Argumente

@@ -1,7 +1,7 @@
 
 ## Übung 2.1
 
-Es empfiehlt sich, bei dieser Übung die Python Konsole zu verwenden.
+Nutze bei dieser Übung die Python-Konsole.
 
 1. Prüfe für die Datentypen `int`, `float` und `str`, unter welchen Umständen sie sich ineinander umwandeln lassen.\
     Z.B.: Was muss für den Wert eines int gelten, um sich in einen str umwandeln zu lassen? 
@@ -11,8 +11,8 @@ Wenn ja, wann ist die resultierende bool True und wann False?
 
 ## Übung 2.2
 
-Nutze bei dieser Übung deine IDE (z.B. PyCharm)
-Tipp: Es schadet nie, hinter input() ein .strip() anzuhängen.
+Nutze bei dieser Übung deine IDE (z.B. PyCharm)\
+Tipp: Es schadet nie, hinter input() ein .strip() anzuhängen. Gewöhn dich am besten daran.
 
 Implementiere Folgendes:
 
