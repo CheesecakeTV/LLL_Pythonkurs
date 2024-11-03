@@ -107,11 +107,14 @@
 
 ## 5. Strings
 
+- 47 String-Methode in Python
 - str()
 - Besondere Zeichen  “\n” und “\t”
 - "Rechnen" mit Strings
 - replace()
-- upper(), lower() und capitalize()
+- upper(), lower()
+  - capitalize()
+  - casefold()
 - list()
 - len()
 - split()
