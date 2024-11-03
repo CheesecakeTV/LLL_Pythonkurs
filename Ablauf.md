@@ -95,7 +95,7 @@
 - Listen "Addieren"
   - Listen "Multiplizieren"
 - del
-- Übung 4.1
+- Übung 4.1, 4.2
 - .copy() (Wird in der Übung erkundet)
 - Element appendieren
   - Häufiger Fehler: Liste an Liste appendieren
@@ -103,8 +103,7 @@
 - sort()
   - sorted()
 - in-Operator 
-- Übung 4.2 
-- Übung 4.3
+- Übung 4.3, 4.4
 
 ## 5. Strings
 

@@ -10,6 +10,8 @@
 6. Hänge den Wert 15 an die Liste an.
 7. Gib die 5 hintersten Werte auf der Konsole aus.
 
+# Übung 4.2
+
 Führe folgenden Codeabschnitt in einem neuen Skript aus:
 
 ```py
@@ -19,12 +21,21 @@ print(y)
 x[0] = 10
 print(y)
 ```
-8. Welche Ausgabe hättest du erwartet? Wie deutest du die Ausgabe?
-9. Ersetze die 2. Zeile durch `= x.copy()` und führe alles erneut aus.\
+1. Welche Ausgabe hättest du erwartet? Wie deutest du die Ausgabe?
+2. Ersetze die 2. Zeile durch `= x.copy()` und führe alles erneut aus.\
 Was bewirkt `.copy()` ?
+3. **Nicht direkt den Code ausführen!** Überlege dir, was bei den jeweiligen print-Statements ausgegeben wird. 
+Führe den Code **DANACH** aus und teste deine Vermutung. Erkläre das Ergebnis.
+   ```py
+   x = [[1]] * 5
+   print(x)
+   x[0][0] = 2
+   print(x)
+   ```
 
 
-## Übung 4.2
+
+## Übung 4.3
 
 1. Der Nutzer gibt nacheinander einige Ganzzahlen auf der Konsole ein.\
 Diese werden in einer Liste gespeichert.\
@@ -48,7 +59,7 @@ Beispiel:
 5. Die Zahlen sollen nun in umgekehrter Reihenfolge, also von groß nach klein sortiert werden. Denk daran, nur gelernte Wege zu nutzen. Reverse wurde noch nicht gelernt.
 
 
-## Übung 4.3
+## Übung 4.4
 
 Schreibe eine einfache Passwortabfrage:
 
