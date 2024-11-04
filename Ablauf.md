@@ -108,6 +108,7 @@
 
 ## 5. Strings
 
+- 47 String-Methoden
 - str()
 - Besondere Zeichen  “\n” und “\t”
 - "Rechnen" mit Strings
