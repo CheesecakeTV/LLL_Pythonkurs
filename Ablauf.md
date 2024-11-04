@@ -62,6 +62,7 @@
   - bool
 - Typecasting (str in int umwandeln, etc.)
   - type()
+    - type(type(...))
 - Übung 2.1
 - Übung 2.2
 
@@ -107,14 +108,11 @@
 
 ## 5. Strings
 
-- 47 String-Methode in Python
 - str()
 - Besondere Zeichen  “\n” und “\t”
 - "Rechnen" mit Strings
 - replace()
-- upper(), lower()
-  - capitalize()
-  - casefold()
+- upper(), lower() und capitalize()
 - list()
 - len()
 - split()
