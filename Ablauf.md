@@ -62,6 +62,7 @@
   - bool
 - Typecasting (str in int umwandeln, etc.)
   - type()
+    - type(type(...))
 - Übung 2.1
 - Übung 2.2
 
