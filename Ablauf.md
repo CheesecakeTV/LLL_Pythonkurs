@@ -113,7 +113,9 @@
 - Besondere Zeichen  “\n” und “\t”
 - "Rechnen" mit Strings
 - replace()
-- upper(), lower() und capitalize()
+- upper(), lower()
+  - casefold()
+  - capitalize()
 - list()
 - len()
 - split()
