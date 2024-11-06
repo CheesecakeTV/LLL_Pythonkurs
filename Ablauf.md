@@ -64,6 +64,7 @@
   - type()
     - type(type(...))
 - Übung 2.1
+- *Stand 06.11.2024 Einheit 1*
 - Übung 2.2
 
 ## 3. Bedingungen und Verzweigungen
