@@ -1,0 +1,61 @@
+
+>>> x = "Hallo Welt"
+>>> x = 5
+>>> float(x)
+5.0
+>>> x
+5
+>>> y = float(x)
+>>> x
+5
+>>> y
+5.0
+>>> eingabe = "5.0"
+>>> float(eingabe)
+5.0
+>>> eingabe
+'5.0'
+>>> eingabe * 5
+'5.05.05.05.05.0'
+>>> float(eingabe) * 5
+25.0
+>>> eingabe = "Hallo Welt"
+>>> float(eingabe)
+Traceback (most recent call last):
+  File "<python-input-52>", line 1, in <module>
+    float(eingabe)
+    ~~~~~^^^^^^^^^
+ValueError: could not convert string to float: 'Hallo Welt'
+>>> type(5)
+<class 'int'>
+>>> type(5.0)
+<class 'float'>
+>>> type("Hallo Welt")
+<class 'str'>
+>>> str(5)
+'5'
+>>> type(print)
+<class 'builtin_function_or_method'>
+>>> type(type)
+<class 'type'>
+>>> True
+True
+>>> False
+False
+>>> x = True
+>>> x
+True
+>>> x = False
+>>> x
+False
+>>> x = bool(1)
+>>> x
+True
+>>> x = bool(0)
+>>> x
+False
+>>> type(x)
+<class 'bool'>
+>>>
+
+
