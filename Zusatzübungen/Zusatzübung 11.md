@@ -1,4 +1,4 @@
-## Zusatzübung 11 (Bearbeitet): OOP
+## Zusatzübung 11: OOP
 
 In der Signalverarbeitung werden Systeme oft als Flussdiagramm dargestellt:
 
