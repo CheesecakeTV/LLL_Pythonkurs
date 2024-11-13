@@ -1,0 +1,47 @@
+
+>>> 5 > 0
+True
+>>> x = 5 > 0
+>>> x
+True
+>>> True + True
+2
+>>> 5 == 5
+True
+>>> 5 == 5.0
+True
+>>> 5 = 5
+  File "<python-input-12>", line 1
+    5 = 5
+    ^
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+>>> x = 5
+>>> x == 5
+True
+>>> x != 5
+False
+>>> 6 > x
+True
+>>> 6 < 7
+True
+>>> 6 < 6
+False
+>>> 6 <= 6
+True
+>>> 7 >= 6
+True
+>>> 7 > 9 or 9 > 8
+True
+>>> 7 > 9 and 9 > 8
+False
+>>> (7 > 9 and 9 > 8) or 6 < 7
+True
+>>> not ((7 > 9 and 9 > 8) or 6 < 7)
+False
+>>> True
+True
+>>> not True
+False
+>>> not False
+True
+
