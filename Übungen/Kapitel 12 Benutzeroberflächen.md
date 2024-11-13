@@ -67,7 +67,7 @@ Wird der Mauszeiger auf einen Knopf gehalten (nicht geklickt, nur drüber gehalt
 3. Erstelle zwei Tabs. Ein Tab soll dein bisheriges Layout enthalten:\
 ![12_5_3.png](img%2F12_5_3.png)
 
-4. Der andere Tab soll 12 Frames mit dem Layout aus a) enthalten.\
+4. Der andere Tab soll 12 Frames mit dem Layout aus 1. enthalten.\
 Tipp: Denk dran, dass man meistens eine Funktion schreiben sollte, wenn man Code kopieren möchte.\
 ![12_5_4.png](img%2F12_5_4.png)
 
