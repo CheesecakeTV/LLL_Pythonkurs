@@ -22,7 +22,7 @@ x[0] = 10
 print(y)
 ```
 1. Welche Ausgabe hättest du erwartet? Wie deutest du die Ausgabe?
-2. Ersetze die 2. Zeile durch `= x.copy()` und führe alles erneut aus.\
+2. Ersetze die 2. Zeile durch `y = x.copy()` und führe alles erneut aus.\
 Was bewirkt `.copy()` ?
 3. **Nicht direkt den Code ausführen!** Überlege dir, was bei den jeweiligen print-Statements ausgegeben wird. 
 Führe den Code **DANACH** aus und teste deine Vermutung. Erkläre das Ergebnis.

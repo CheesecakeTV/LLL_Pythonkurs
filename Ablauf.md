@@ -77,7 +77,6 @@
   - and, or
   - not
 - Übung 3.1
-- Umfrage zum Kurs
 
 - if-Verzweigung
   - else
@@ -109,6 +108,7 @@
 
 ## 5. Strings
 
+- Umfrage zum Kurs
 - 47 String-Methoden
 - str()
 - Besondere Zeichen  “\n” und “\t”
@@ -139,7 +139,6 @@
 - List Comprehension: Einzeilige for-Schleifen zum Erstellen einer Liste
 - Unterstrich als Variablenname
 - Übungen 6.2
-- Umfrage zum Kurs
 
 ## 7. Dateien
 
