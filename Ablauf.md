@@ -85,9 +85,9 @@
   - pass
   - while-Schleifen
 - Übung 3.2
+- *Stand 13.11.2024, Einheit 2*
 
 ## 4. Listen
-
 
 - Indexe aufrufen
   - Mehrere Indexe aufrufen
