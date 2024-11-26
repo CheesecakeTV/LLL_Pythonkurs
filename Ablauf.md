@@ -100,6 +100,7 @@
 - .copy() (Wird in der Übung erkundet)
 - Element appendieren
   - Häufiger Fehler: Liste an Liste appendieren
+  - \* um Liste in Liste einzufügen
 - len()
 - sort()
   - sorted()
