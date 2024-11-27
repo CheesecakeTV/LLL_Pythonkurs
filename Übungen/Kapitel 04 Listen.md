@@ -10,7 +10,7 @@
 6. Hänge den Wert 15 an die Liste an.
 7. Gib die 5 hintersten Werte auf der Konsole aus.
 
-# Übung 4.2
+## Übung 4.2
 
 Führe folgenden Codeabschnitt in einem neuen Skript aus:
 
