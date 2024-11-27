@@ -97,6 +97,7 @@
   - Listen "Multiplizieren"
 - del
 - Übung 4.1, 4.2
+- Umfrage zum Kurs
 - .copy() (Wird in der Übung erkundet)
 - Element appendieren
   - Häufiger Fehler: Liste an Liste appendieren
@@ -106,10 +107,10 @@
   - sorted()
 - in-Operator 
 - Übung 4.3, 4.4
+- *Stand 27.11.2024 Einheit 3*
 
 ## 5. Strings
 
-- Umfrage zum Kurs
 - 47 String-Methoden
 - str()
 - Besondere Zeichen  “\n” und “\t”
