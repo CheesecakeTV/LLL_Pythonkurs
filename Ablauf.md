@@ -219,6 +219,7 @@
   - len
   - add, mul
 - Übung 11.4
+- dir()
 - `self.__dict__` nutzen, um Instanz zu kopieren
 - pickle Modul
 - Mehrere Funktions-Rückgaben
@@ -226,10 +227,53 @@
 - Übungen 11.5, 9.4
 - Umfrage zum Kurs
 
-# Ende der Grundlagen
-### Ab jetzt bist du fortgeschritten. Herzlichen Glückwunsch!
+## 12. Iterators und Generators (Früher Kapitel 14)
 
-## 12. Benutzeroberflächen mit PySimpleGUI
+- Grundlegende Idee hinter Generatoren?
+- Aufbau von Iteratoren
+- iter, next und StopIteration
+- Erstes Element aus einem Iterator bekommen
+- Einfache Generator mit Funktionen
+  - Wie funktionieren zip und enumerate?
+- Übung 12.1
+- Bibliothek [Itertools](https://docs.python.org/3/library/itertools.html)
+  - Hier kommt noch Inhalt dazu...
+- Iteratoren aus eigener Klasse
+- Generator Comprehension
+
+## 13. Decorators (Neu dazu gekommen)
+*Auf Platz 2 der schwierigsten Themen dieses Kurses, aber super nützlich wenn man es kann*
+
+#### Nötiges Vorwissen
+- Funktionen als Objekt
+- Funktionen als Argument
+- Funktionen als Rückgabe
+- callable-Typehint
+- nonlocal Variablen
+- Wiederholung: dir()
+
+#### Decorators allgemein
+- Decorators als "normale" Funktion die eine Funktion zurückgibt
+  - Decorator-Schreibweise
+- Argumente
+  - Optionale Argumente
+- Übungen 13.1 - 13.3
+
+#### Vorgefertigte Decorator und functools
+- staticmethod
+- property
+  - setter
+  - functools.cached_property
+- functools.wraps
+  - update_wrapper
+- functools.cache
+  - lru_cache
+- functools.total_ordering
+- functools.partial (Nicht unbedingt ein decorator, aber vergleichbar)
+  - functools.partial_method
+- An dieser Stelle wäre eine Zusatzübung bonita, ich denk mir was aus.
+
+## 14. Benutzeroberflächen mit PySimpleGUI
 
 Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
 
@@ -273,9 +317,9 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
 
 - Umfrage zum Kurs
 
-## 13. Multithreading/Multiprocessing
+## 15. Multithreading/Multiprocessing
 
-Mit Abstand das komplizierteste Thema des Kurses, aber trotzdem wichtig für vernünftige Projekte.
+*Das schwierigste Thema des Kurses, aber trotzdem sehr nützlich und wichtig*
 
 #### Multithreading
 - Warum Multithreading?
@@ -312,26 +356,13 @@ Mit Abstand das komplizierteste Thema des Kurses, aber trotzdem wichtig für ver
 - Übung 13.5
 
 
-## 14. Iterators und Generators
-
-- Grundlegende Idee hinter Generatoren?
-- Aufbau von Iteratoren
-- iter, next und StopIteration
-- Erstes Element aus einem Iterator bekommen
-- Einfache Generator mit Funktionen
-  - Wie funktionieren zip und enumerate?
-- Übung 14.1
-- Bibliothek [Itertools](https://docs.python.org/3/library/itertools.html)
-- Iteratoren aus eigener Klasse
-- Generator Comprehension
-
-## 15. RegEx
+## 16. RegEx
 
 - Wofür RegEx?
 - Aufteilung: 1. Einheit nur RegEx, 2. Einheit Kombination mit Python
 - Regex steht nicht im Ablauf, dafür hab ich eine Präsentation
 
-## 16. Numpy und Pyplot 
+## 17. Numpy und Pyplot 
 
 - Liste in Array umwandeln
 - Einfache Array-Erstellung

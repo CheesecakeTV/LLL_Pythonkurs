@@ -2,7 +2,7 @@
 
 
 
-## Übung 13.1 
+## Übung 14.1 
 
 1. Schreibe die Funktion istPrim(dieZahl:int)->bool, welche zurückgibt, ob die übergebene Zahl eine Primzahl ist. Die Funktion muss nicht besonders effizient sein, einfach nur grundlegend.
 2. Der Nutzer soll die Möglichkeit haben, diese Funktion zu nutzen. Dazu gibt er eine Zahl auf der Konsole ein. Das Programm gibt aus, ob die Zahl eine Primzahl ist.
@@ -11,7 +11,7 @@
 5. Sorge dafür, dass der Nutzer das Programm nicht zum Absturz bringt, wenn er eine nicht-Zahl eingibt.
 
 
-## Übung 13.2
+## Übung 14.2
 
 Entscheide, welches Objekt zur Synchronisation angewendet werden sollte und warum.\
 Folgende Objekte haben wir behandelt:
@@ -37,7 +37,7 @@ Der Nutzer soll die Module jeweils über eine GUI an- und ausschalten können.
 Ist ein Modul ausgeschaltet, macht es nichts, außer auf die Einschaltung zu warten.
 
 
-## Übung 13.3
+## Übung 14.3
 
 Kopiere folgende Funktion in deinen Code:
 
@@ -63,7 +63,7 @@ Was passiert und wie erklärst du die Ausgabe?
 Du darfst dabei weder `.join()`, noch `.isAlive()`, noch `time.sleep()`, noch `events` nutzen.
 
 
-## Übung 13.4 
+## Übung 14.4 
 
 (Tatsächlich ein Programm, welches ich mal geschrieben habe. Sehr nützlich.)
 
@@ -79,7 +79,7 @@ In dieser soll der Verlauf angezeigt werden, also welche Texte vorher kopiert wu
 6. Beschränke die Länge des Verlaufs auf 30.
 
 
-## Übung 13.5 
+## Übung 14.5 
 
 Du darfst in dieser Übung maximal 6 zusätzliche Prozesse verwenden, also inklusive Hauptprozess 7.
 
