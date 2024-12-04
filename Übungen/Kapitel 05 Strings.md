@@ -3,7 +3,8 @@
 
 Der Nutzer gibt einen Satz auf der Konsole ein.
 
-1. Das Programm gibt aus, wie viele Wörter der Satz enthält.
+1. Das Programm gibt aus, wie viele Wörter der Satz enthält.\
+Tipp: Hast du eine Möglichkeit, die Wörter voneinander zu trennen?\
 Beispiel:
     ```
     >> Hallo ich programmiere Python

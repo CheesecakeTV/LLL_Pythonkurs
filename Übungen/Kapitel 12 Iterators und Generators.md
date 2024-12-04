@@ -1,4 +1,18 @@
-## Übung 14.1
+
+## Übung 12.1
+
+Entscheide für die folgende Typen, ob es sich um ein `Iterable`, einen `Iterator`, oder keins von beiden handelt.
+
+1. list
+2. dict
+3. str
+4. int
+5. range
+6. enumerate
+7. dict.keys()    # Das ist übrigens wirklich ein eigenständiger Typ, namens dict_keys. Values und Items haben auch einen eigenen Typen.
+8. dict.values()
+
+## Übung 12.2
 
 Tipp: Löse die Aufgabenteile, indem du die Lösungen der vorherigen Teile verwendest.
 
@@ -19,4 +33,23 @@ Negative Zahlen werden ignoriert.
    `for n, a, b, c in derGenerator(generator1, generator2, generator3):`
    2. Der Generator soll den Index n so ausgeben, so dass er sich so verwenden lässt:\
      `for n, (a, b, c) in derGenerator(generator1, generator2, generator3):`
+
+## Übung 12.3
+
+Implementiere die Funktion `getFirstElem(derIterator:Iterator,default:any=None) -> any`.
+Diese gibt das erste Element des übergebenen Iterators zurück.
+Ist der Iterator leer, wird `default` zurückgegeben.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
