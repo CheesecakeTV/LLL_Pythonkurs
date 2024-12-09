@@ -138,6 +138,7 @@
 - enumerate()
 - zip()
 - *Stand 04.12.2024, Einheit 4*
+- Backslash bei Strings (Beim letzten Mal vergessen)
 - Übung 6.1
 - List Comprehension: Einzeilige for-Schleifen zum Erstellen einer Liste
 - Unterstrich als Variablenname
