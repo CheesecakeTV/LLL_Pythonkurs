@@ -137,10 +137,12 @@
   - Typecasten in eine Liste
 - enumerate()
 - zip()
+- *Stand 04.12.2024, Einheit 4*
 - Übung 6.1
 - List Comprehension: Einzeilige for-Schleifen zum Erstellen einer Liste
 - Unterstrich als Variablenname
 - Übungen 6.2
+- *Blooket*
 
 ## 7. Dateien
 
