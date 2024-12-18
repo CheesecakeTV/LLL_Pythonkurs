@@ -142,8 +142,8 @@
 - Übung 6.1
 - List Comprehension: Einzeilige for-Schleifen zum Erstellen einer Liste
 - Unterstrich als Variablenname
+- *Stand 18.12.2024 Einheit 5*
 - Übungen 6.2
-- *Blooket Quiz*
 
 ## 7. Dateien
 
