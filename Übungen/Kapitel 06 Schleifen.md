@@ -6,7 +6,7 @@ Die Teilaufgaben sind unabhängig voneinander lösbar, also halte dich nicht zu 
 1. Der Nutzer gibt einen Satz auf der Konsole ein.\
 Doppelte Leerzeichen sollen entfernt werden. \
 Rechne damit, dass der Nutzer nie mehr als 2 Leerzeichen hintereinander schreibt.\
-Optional: Rechne doch nicht damit, entferne alle mehrfachen Leerzeichen, selbst wenn mehr als 2 hintereinander stehen (Die optionalen Teile sind diesmal sehr kreativ).
+    1. Optional: Rechne doch nicht damit, entferne alle mehrfachen Leerzeichen, selbst wenn mehr als 2 hintereinander stehen (Die optionalen Teile sind diesmal sehr kreativ).
 2. Alle Großbuchstaben sollen ausgegeben werden:
     > \>> Hallo ich Programmiere PYTHON\
     HPPYTHON

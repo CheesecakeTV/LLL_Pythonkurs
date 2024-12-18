@@ -143,7 +143,7 @@
 - List Comprehension: Einzeilige for-Schleifen zum Erstellen einer Liste
 - Unterstrich als Variablenname
 - Übungen 6.2
-- *Blooket*
+- *Blooket Quiz*
 
 ## 7. Dateien
 
