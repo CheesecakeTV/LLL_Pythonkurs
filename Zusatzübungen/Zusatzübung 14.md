@@ -33,6 +33,7 @@ Einfach drauf los zu programmieren kann manchmal helfen, in diesem Fall aber ver
 1. Gib auf der Konsole die zur Eingabe gehörige Zustandsfolge aus.
 Tipp: Das lässt sich komplett ohne if-Verzweigung implementieren.
 2. Gib auf der Konsole die zur Zustandsfolge gehörige Eingabe aus.
-   1. Optional: Nutze keine if-Verzweigungen (Schwierig)
+   1. Optional: Nutze maximal eine if-Verzweigung.
+   2. Optional: Nutze gar keine if-Verzweigung (hab keine elegante Lösung dazu gefunden, bin gespannt was ihr so macht)
 
 
