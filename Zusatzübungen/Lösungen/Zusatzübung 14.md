@@ -1,4 +1,3 @@
 
-![img.png](../img/Riemannhypothese.png)
+![Riemannhypothese.gif](..%2Fimg%2FRiemannhypothese.gif)
 
-## Dachtest du
