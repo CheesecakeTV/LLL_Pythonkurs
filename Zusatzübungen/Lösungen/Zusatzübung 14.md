@@ -1,3 +1,3 @@
 
-![Riemannhypothese.gif](..%2Fimg%2FRiemannhypothese.gif)
+![Signalverlauf.gif](..%2Fimg%2FSignalverlauf.gif)
 
