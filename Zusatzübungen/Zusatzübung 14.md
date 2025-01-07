@@ -28,7 +28,7 @@ zustande = [0,1,2,3,4,4,4,0,3,4,0,1,2,3,2,3,2,0,3,2,3,4,0,1,4,4,0,1,2,0,3] # Nur
 Hinweis: Deine Lösung soll für beliebige Eingaben funktionieren, nicht nur für genau diese!\
 Tipp: Überlege dir vorm Programmieren erstmal einen ungefähren "Schlachtplan".
 Also wie möchtest du die Aufgabe lösen?
-Einfach drauf los zu programmieren kann manchmal helfen, in diesem Fall aber vermutlich nicht.\
+Einfach drauf los zu programmieren kann manchmal helfen, in diesem Fall aber vermutlich nicht.
 
 1. Gib auf der Konsole die zur Eingabe gehörige Zustandsfolge aus.
 Tipp: Das lässt sich komplett ohne if-Verzweigung implementieren.\
