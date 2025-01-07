@@ -31,9 +31,14 @@ Also wie möchtest du die Aufgabe lösen?
 Einfach drauf los zu programmieren kann manchmal helfen, in diesem Fall aber vermutlich nicht.\
 
 1. Gib auf der Konsole die zur Eingabe gehörige Zustandsfolge aus.
-Tipp: Das lässt sich komplett ohne if-Verzweigung implementieren.
-2. Gib auf der Konsole die zur Zustandsfolge gehörige Eingabe aus.
+Tipp: Das lässt sich komplett ohne if-Verzweigung implementieren.\
+Lösung: `0 - 3 - 2 - 0 - 3 - 4 - 0 - 3 - 4 - 0 - 1 - 4 - 4 - 0 - 3 - 2 - 0 - 3 - 4 - 0 - 1 - 2 - 3 - 2 - 3 - 2 - 3 - 4 - 0 - 3 - 4 - 4`
+2. Gib auf der Konsole die zur Zustandsfolge gehörige Eingabe aus.\
+Lösung: `1 - 0 - 0 - 0 - 1 - 0 - 0 - 1 - 0 - 0 - 0 - 1 - 0 - 1 - 0 - 0 - 0 - 1 - 0 - 0 - 1 - 0 - 0 - 0 - 0 - 0 - 1 - 0 - 0 - 0 - ?`
    1. Optional: Nutze maximal eine if-Verzweigung.
    2. Optional: Nutze gar keine if-Verzweigung (hab keine elegante Lösung dazu gefunden, bin gespannt was ihr so macht)
-
-
+3. Nach den Ausgaben aus 1. und 2. soll der Nutzer weitere Eingaben auf der Konsole machen können (0 oder 1).
+Ausgegegen wird der jeweils nächste Zustand. Setze den Zustand vorher auf 0 zurück.
+   1. Gibt der Nutzer nichts ein, soll das Skript beendet werden.
+   2. Gibt der Nutzer etwas Anderes ein als 0 oder 1, soll die Eingabe ignoriert werden.
+   3. Gibt der Nutzer mehrere Zeichen (z.B. `01110010`) ein, sollen diese der Reihe nach verarbeitet werden.
