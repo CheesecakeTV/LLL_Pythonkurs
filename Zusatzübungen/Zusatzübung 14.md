@@ -34,7 +34,7 @@ Einfach drauf los zu programmieren kann manchmal helfen, in diesem Fall aber ver
 Tipp: Das lässt sich komplett ohne if-Verzweigung implementieren.\
 Lösung: `0 - 3 - 2 - 0 - 3 - 4 - 0 - 3 - 4 - 0 - 1 - 4 - 4 - 0 - 3 - 2 - 0 - 3 - 4 - 0 - 1 - 2 - 3 - 2 - 3 - 2 - 3 - 4 - 0 - 3 - 4 - 4`
 2. Gib auf der Konsole die zur Zustandsfolge gehörige Eingabe aus.\
-Lösung: `1 - 0 - 0 - 0 - 1 - 0 - 0 - 1 - 0 - 0 - 0 - 1 - 0 - 1 - 0 - 0 - 0 - 1 - 0 - 0 - 1 - 0 - 0 - 0 - 0 - 0 - 1 - 0 - 0 - 0 - ?`
+Lösung: `1 - 0 - 1 - 0 - 0 - 0 - 1 - 0 - 0 - 1 - 1 - 0 - 1 - 1 - 1 - 1 - 0 - 0 - 1 - 1 - 0 - 1 - 1 - 1 - 0 - 1 - 1 - 0 - 0 - 0 - ?`
    1. Optional: Nutze maximal eine if-Verzweigung.
    2. Optional: Nutze gar keine if-Verzweigung (hab keine elegante Lösung dazu gefunden, bin gespannt was ihr so macht)
 3. Nach den Ausgaben aus 1. und 2. soll der Nutzer weitere Eingaben auf der Konsole machen können (0 oder 1).
