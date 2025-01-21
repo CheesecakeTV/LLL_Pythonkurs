@@ -158,6 +158,7 @@
 ## 8. Dictionaries
 
 - Elemente anhängen
+  - .update()
   - Elemente löschen
 - values(), keys() und items()
 - in - Operator
