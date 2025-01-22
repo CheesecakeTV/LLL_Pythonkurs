@@ -24,6 +24,9 @@ for key,val in raw.items():
     if key[0] == "E":
         ergebnisse[key] = val
 
+with open("ergebnis.json","w") as f:
+    f.write(json.dumps(ergebnisse,indent=4))
+
 # 6.
 anzahlPersonen = 0
 for key,val in raw.items():
