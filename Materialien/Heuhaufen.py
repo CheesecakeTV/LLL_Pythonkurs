@@ -3,7 +3,7 @@ import random as r
 # r.seed(0) # Einfügen, um stets den selben Heuhaufen zu erhalten
 
 maxTiefe = 2    # Die maximale Tiefe
-einheitlicheTiefe = True # Ob die Tiefe zufällig ist
+einheitlicheTiefe = True # Ob die Tiefe (nicht) zufällig ist
 maxStrangeProKnoten = 10 # Wie viele Unterknoten jeder Knoten haben soll
 heuhaufenPrinten = True # Ob der Heuhaufen auf die Konsole ausgegeben werden soll
 
