@@ -165,6 +165,7 @@
 - .get()
 - .copy()
 - Übung 8.1
+- *Stand 22.01.2025 Einheit 6*
 
 ## 9. Funktionen
 
