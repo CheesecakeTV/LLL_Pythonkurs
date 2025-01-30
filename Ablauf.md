@@ -183,6 +183,7 @@
   - list[]
   - dict[int:int]
 - Übung 9.1
+- *Stand 29.01.2025 Einheit 7*
 - Umfrage zum Kurs
 
 ### Lokale und Globale Variablen
