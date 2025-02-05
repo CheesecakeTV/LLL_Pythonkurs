@@ -188,8 +188,12 @@
 
 ### Lokale und Globale Variablen
 
+- Typehints auf Variablen
+  - any-Typehint
+- Lokale/globale Variablen
 - isinstance()
 - Map-Funktion
+- Filter-Funktion
 - Key beim sortieren
 - Übungen 9.2, 9.3
 - (Rekursion zum Knobeln) Übung 9.4
