@@ -1,7 +1,7 @@
 
 
 
-## Übung 12.1
+## Übung 14.1
 
 In dieser Übung erstellen wir einen “Taschenrechner”.
 
@@ -13,7 +13,7 @@ In dieser Übung erstellen wir einen “Taschenrechner”.
 6. Sicher das Programm mit Try…Except ab, sodass es nicht abstürzt, wenn man Quatsch eingibt.
 
 
-## Übung 12.2 
+## Übung 14.2 
 
 Diese Namensliste kennst du ja bereits: `Materialien/Namenliste.txt`
 Bitte einmal runterladen und in deinen Skriptordner tun.
@@ -30,7 +30,7 @@ Implementiere es in kleinen Stücken und setze dann das Programm zusammen.
 Schreibe eigene Funktionen, wenn es sich anbietet!
 
 
-## Übung 12.3 
+## Übung 14.3 
 
 Erstelle die Funktion `passwortabfrage(dasPasswort:str)->bool`.
 
@@ -46,16 +46,16 @@ Ist das Passwort richtig, wird `True` zurückgegeben.
 5. Wird im Passwort-Feld `Enter` gedrückt, wird die Eingabe bestätigt, genau wie mit dem Button.
 
 
-## Übung 12.4 
+## Übung 14.4 
 
 Erstelle ein Fenster mit 100 Knöpfen, die quadratisch angeordnet sind (siehe Bild).\
 Wird der Mauszeiger auf einen Knopf gehalten (nicht geklickt, nur drüber gehalten!), soll dieser rot gefärbt werden.
 
-![Knopfmatrix.png](img/12_4.png)
+![Knopfmatrix.png](img/Kapitel_12/12_4.png)
 
 
 
-## Übung 12.5 
+## Übung 14.5 
 
 1. Erstelle folgendes layout:\
 ![12_5_1.png](img%2F12_5_1.png)\
