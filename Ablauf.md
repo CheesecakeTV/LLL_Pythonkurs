@@ -197,6 +197,7 @@
 - Key beim sortieren
 - Übungen 9.2, 9.3
 - (Rekursion zum Knobeln) Übung 9.4
+- *Stand 05.02.2025 Einheit 8*
 
 ## 10. Try-Except
 
