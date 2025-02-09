@@ -50,14 +50,16 @@ print("\nHeuhaufen enthält eine Nadel:","Ja" if "Nadel" in str(heuhaufen) else 
 """
 Dies ist die Lösung für die komplizierte Konfiguration mit variabler Tiefe.
 Elemente können also entweder strings, oder weitere Listen sein.
+
+Es ist wichtig, die Struktur des Heuhaufens verstanden zu haben, um die Lösung zu verstehen.
 """
 
 def sucheNadel(derHaufen:list|str) -> list|None:
     # Rekursionsverankerung
-    if isinstance(derHaufen,str):
+    if isinstance(derHaufen,str): # False, wenn ein kleinerer Haufen enthalten ist
         if derHaufen == "Nadel":
-            return []
-        else:
+            return [] # Ist die Rückgabe eine Liste, weiß die äußere Funktion, dass die Nadel gefunden wurde
+        else: # derHaufen == "Heu"
             return # (Entspricht return None)
 
     # Rekursionsschritt:
@@ -65,8 +67,8 @@ def sucheNadel(derHaufen:list|str) -> list|None:
     for n,kleinerHaufen in enumerate(derHaufen):
         ergebnis = sucheNadel(kleinerHaufen)
 
-        if isinstance(ergebnis,list):
-            return [n] + ergebnis # Vorne anhängen
+        if isinstance(ergebnis,list): # Ist das ergebnis eine Liste, wurde die Nadel in kleinerHeuhaufen gefunden
+            return [n] + ergebnis # Index vorne an den "Weg" zur Nadel anhängen
 
 ergebnis = sucheNadel(heuhaufen)
 print(ergebnis)
