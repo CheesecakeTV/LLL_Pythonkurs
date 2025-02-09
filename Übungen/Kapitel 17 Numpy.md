@@ -41,11 +41,11 @@ Steht nichts zwischen zwei Termen, heißt das “mal”. xy bedeutet also x mal 
 
 1. Der Radius r, also die Entfernung vom Ursprung (0,0) berechnet sich so: $r=\sqrt{x²+y²}$ (Auch für folgende Teile wichtig.)
 Plotte diese Funktion in einem pcolor-Plot.
-   1. Lege ein contour-Plot drauf, damit man den Verlauf besser erkennen kann:
+   1. Lege ein contour-Plot drauf, damit man den Verlauf besser erkennen kann:\
    ![img_9.png](img/Kapitel_17/img_9.png)
 2. Plotte folgende Funktion in pcolor: $f(x,y) = r sin(x)cos(y)$
 3. Plotte folgendes Vektorfeld als streamplot:
-$\binom{y * (0.5r - 4)}{x * (r + 1)}$
+$\binom{y * (0.5r - 4)}{x * (r + 1)}$\
 ![img_10.png](img/Kapitel_17/img_10.png)
 4. (Nur ab Oberstufe) Erstelle einen quiver-Plot, in welchem alle Pfeile auf den Punkt (5,5) zeigen. 
 Die Länge der Pfeile ist egal.\
