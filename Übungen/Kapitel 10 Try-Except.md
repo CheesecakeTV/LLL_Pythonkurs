@@ -13,8 +13,8 @@ Hier findest du alle Exceptions: https://docs.python.org/3/library/exceptions.ht
 3. Optional: Implementiere die Funktion `inputType(derTyp:type) -> any`, welche die gleiche Funktionalität hat wie `inputGanzzahl()`, jedoch mit jedem wandelbaren Datentyp funktionieren soll.\
 Beispiel: Wird `inputType(float)` aufgerufen, wird so lange zur Eingabe aufgefordert, bis eine Float eingegeben wird. Die Float wird dann zurückgegeben.
 Du darfst dazu keine if-Abfrage nutzen, wir bleiben so abstrakt wie möglich.
-4. Weise den Nutzer darauf hin, was für einen Typen er eingeben soll. Den Namen eines Typens kannst du mit .__name__ als String bekommen.
-`float.__name__` gibt also “float” zurück.
+   1. Weise den Nutzer darauf hin, was für einen Typen er eingeben soll. Den Namen eines Typens kannst du mit .__name__ als String bekommen.
+   `float.__name__` gibt also “float” zurück.
 
 
 ## Übung 10.3
