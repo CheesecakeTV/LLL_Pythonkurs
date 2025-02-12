@@ -1,5 +1,3 @@
-from multiprocessing.managers import Value
-
 
 def inputGanzzahl() -> int:
     while True:
