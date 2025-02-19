@@ -14,14 +14,15 @@ Beispielaufruf:
     personB = Person(“Marie Steinke”, 1985, ”W”)
     personA.heirate(personB)
     ```
-   1. Passe die Methode print() an, sodass der Name des Ehepartners mit ausgegeben wird. Es genügt, wenn Vor- und Nachname ausgegeben werden.
+   1. Passe die Methode `print()` (der Klasse Person) an, sodass der Name des Ehepartners mit ausgegeben wird. Es genügt, 
+   wenn Vor- und Nachname ausgegeben werden.
 6. Wird eine Person verheiratet, wird die verheiratete Person jeweils bei beiden Partnern eingetragen.
 7. Erstelle die globale Variable `allePersonen`, welche alle erstellten Personen enthalten soll. Die Personen sollen nicht manuell eingefügt werden, sondern automatisch beim Erstellen einer Person.
 
 
 ## Übung 11.2
 
-Erstelle die Klasse Auto.
+Erstelle die Klasse `Auto`.
 
 1. Jedes Auto hat einen Modelltyp (str), einen Treibstoffverbrauch (float) und ein Gewicht (float).
 2. Wird kein Gewicht festgelegt, wird es als 0 angenommen.
@@ -31,22 +32,31 @@ Erstelle die Klasse Auto.
     Treibstoffverbrauch: … l/100km\
     Gewicht: … kg (Diese Zeile wird nur ausgegeben, wenn ein Gewicht gesetzt ist).
 
-Erstelle die Klasse Elektrofahrzeug, welche von der Klasse Auto erbt.
+Erstelle die Klasse `Elektroauto`, welche von der Klasse `Auto` erbt.
 
-4. Anstatt in l/100km wird der Treibstoffverbrauch in kWh/100km ausgegeben. Überschreibe dazu `Auto.print()`
+4. Anstatt in l/100km wird der Treibstoffverbrauch in kWh/100km ausgegeben. 
+Überschreibe dazu `Auto.print()`
 
-Erstelle die Klasse Bagger, welche von der Klasse Auto erbt.
+Erstelle die Klasse `Bagger`, welche von der Klasse `Auto` erbt.
 
-5. Zusätzlich zu den üblichen Parametern, wird das Attribut hubkraft (float) definiert. Die Hubkraft hat die Einheit kg und soll bei der Initialisierung übergeben werden.
-6. Passe die Methode print() an, sodass der neue Parameter ebenfalls ausgegeben wird. Kopiere dabei nicht die Methode, sondern finde einen Weg, die Methode der Klasse Auto aufzurufen und die neue Zeile anzuhängen.
+5. Zusätzlich zu den üblichen Parametern, wird das Attribut hubkraft (float) definiert. 
+Die Hubkraft hat die Einheit kg und soll bei der Initialisierung übergeben werden.
+6. Passe die Methode print() an, sodass der neue Parameter ebenfalls ausgegeben wird. 
+Kopiere dabei nicht die Methode, sondern finde einen Weg, die Methode der Klasse Auto aufzurufen und die neue Zeile anzuhängen.
 
 
 ## Übung 11.3
 
-Eine Exception ist nichts Anderes als eine Klasse. Eine Exception die von einer anderen Exception erbt, ist eine Unterkategorie dieser Exception: https://docs.python.org/3/library/exceptions.html#exception-hierarchy
+Eine Exception ist nichts Anderes als eine Klasse. 
+Eine Exception die von einer anderen Exception erbt, ist eine Unterkategorie dieser Exception: 
+https://docs.python.org/3/library/exceptions.html#exception-hierarchy
 
-Erstelle die Exception “SchlechterProgrammiererError” und löse sie testweise über raise aus.
-
+1. Erstelle die Exception `SchlechterProgrammiererError`.
+2. Erstelle die Funktion `schlechterProgrammierer() -> None`, welche die in 1. erstellte
+Exception auslöst.
+3. Nutze try...except, um den in der erstellten Funktion ausgelösten Fehler aufzufangen.
+   (Wirklich einfach nur die Funktion aufrufen und mit try...except den Fehler auffangen)
+4. Die Funktion aus 2. soll als Fehlertext "Bitte mehr üben" ausgeben.
 
 ## Übung 11.4
 

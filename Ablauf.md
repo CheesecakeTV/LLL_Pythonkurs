@@ -229,12 +229,12 @@
   - str
   - len
   - add, mul
+- properties (Muss ich mir noch ne Übung zu überlegen)
 - Übung 11.4
 - dir()
 - `self.__dict__` nutzen, um Instanz zu kopieren
 - pickle Modul
 - Mehrere Funktions-Rückgaben
-- Lambda-Funktionen
 - Übungen 11.5, 9.4
 - Umfrage zum Kurs
 
