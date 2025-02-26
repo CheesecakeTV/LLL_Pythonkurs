@@ -26,7 +26,7 @@ Erstelle die Klasse `Auto`.
 
 1. Jedes Auto hat einen Modelltyp (str), einen Treibstoffverbrauch (float) und ein Gewicht (float).
 2. Wird kein Gewicht festgelegt, wird es als 0 angenommen.
-3. Erstelle die Methode print(). Diese gibt Informationen über das Auto in dieser Form auf der Konsole aus:
+3. Erstelle die Methode `print() -> None`. Diese gibt Informationen über das Auto in dieser Form auf der Konsole aus:
 
     >Modelltyp: …\
     Treibstoffverbrauch: … l/100km\
@@ -41,7 +41,7 @@ Erstelle die Klasse `Bagger`, welche von der Klasse `Auto` erbt.
 
 5. Zusätzlich zu den üblichen Parametern, wird das Attribut hubkraft (float) definiert. 
 Die Hubkraft hat die Einheit kg und soll bei der Initialisierung übergeben werden.
-6. Passe die Methode print() an, sodass der neue Parameter ebenfalls ausgegeben wird. 
+6. Passe die Methode `print()` an, sodass der neue Parameter ebenfalls ausgegeben wird. 
 Kopiere dabei nicht die Methode, sondern finde einen Weg, die Methode der Klasse Auto aufzurufen und die neue Zeile anzuhängen.
 
 
@@ -136,12 +136,16 @@ Vektor + Vektor soll also Vektor ergeben.
 Übung zum Ende der Grundlagen.
 
 Diese Übung geht thematisch quer durch alle Themen. 
-Sie fragt Verständnis ab, kein Wissen. Es sind nur Übungen, die in dieser Form noch nicht vorgekommen sind.
+Sie fragt Verständnis ab, kein Wissen. 
+Es sind nur Übungen, die in dieser Form noch nicht vorgekommen sind.
+
 Die einzelnen Teile sind unabhängig voneinander lösbar.
 
-1. Kopiere folgenden Codeausschnitt in ein leeres Skript. Passe `dieFunktion` so an, dass jeweils nach dem Abstand zur übergebenen Zahl sortiert wird (Es soll für alle Zahlen funktionieren, nicht nur für die hier genutzten).
+1. Kopiere folgenden Codeausschnitt in ein leeres Skript. Passe `dieFunktion` so an, 
+dass jeweils nach dem Abstand zur übergebenen Zahl sortiert wird (Es soll für alle Zahlen 
+funktionieren, nicht nur für die hier genutzten).
 ```py
-def dieFunktion(abstandZu:int):
+def dieFunktion(abstandZu:int) -> int:
    pass
 
 # Ab hier nichts ändern!!!
@@ -154,7 +158,7 @@ x.sort(key=dieFunktion(-3))
 print("Abstand zu -3:", x)
 ```
 
-2. Schreibe die Funktion `log(zuLoggen:any, vortext:str=””)`.
+2. Schreibe die Funktion `log(zuLoggen:any, vortext:str=””) -> any`.
 Die Funktionsweise lässt sich am Besten durch ein Beispiel zeigen:\
     ```py
     x = log(5) # x wird auf 5 gesetzt und “5” wird auf der Konsole ausgegeben.

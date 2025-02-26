@@ -224,6 +224,7 @@
 - Übung 11.1
 - Vererbung
   - super()
+- *Einheit 11 19.02.2025*
 - Übung 11.2, 11.3
 - Dunder-Methoden (“Magic”-Methoden)
   - str
@@ -235,7 +236,7 @@
 - `self.__dict__` nutzen, um Instanz zu kopieren
 - pickle Modul
 - Mehrere Funktions-Rückgaben
-- Übungen 11.5, 9.4
+- Übungen 11.4, 11.5
 - Umfrage zum Kurs
 
 ## 12. Iterators und Generators (Früher Kapitel 14)
