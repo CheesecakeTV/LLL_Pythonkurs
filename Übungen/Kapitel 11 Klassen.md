@@ -121,7 +121,9 @@ Vektor + Vektor soll also Vektor ergeben.
     ```
 
 11. Vektoren lassen sich wie listen und dicts mit .copy() kopieren (keine dunder Methode).
-12. Zwei Vektoren können miteinander verglichen werden, indem deren Betrag verglichen wird. Hinweis: Auf der Liste der Dunder-Methoden gibt es einen Fehler dabei. Die Methode heißt nicht __rt__, sondern __gt__:
+12. Zwei Vektoren können miteinander verglichen werden, indem deren Betrag verglichen wird. 
+Hinweis: Auf der Liste der Dunder-Methoden gibt es einen Fehler dabei. 
+Die Methode heißt nicht `__rt__`, sondern `__gt__`:
     ```py
     v1 > v2 # True
     v2 > v3 # False
