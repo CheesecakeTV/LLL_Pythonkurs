@@ -230,6 +230,9 @@
   - str
   - len
   - add, mul
+- *Einheit 12 26.02.2025*
+- getitem, setitem
+- Iterators und Iterables
 - properties (Muss ich mir noch ne Übung zu überlegen)
 - Übung 11.4
 - dir()
