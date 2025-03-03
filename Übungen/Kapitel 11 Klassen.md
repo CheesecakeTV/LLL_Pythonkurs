@@ -119,16 +119,22 @@ Vektor + Vektor soll also Vektor ergeben.
     v1[0] 		# = 5
     v1[5] 		# = Fehler (Index Error)
     ```
-
-11. Vektoren lassen sich wie listen und dicts mit .copy() kopieren (keine dunder Methode).
-12. Zwei Vektoren können miteinander verglichen werden, indem deren Betrag verglichen wird. 
+11. Werden die Werte eines Vektors vollständig geändert, indem das Attribut direkt
+beschrieben wird (z.B. `v1.werte = [1,2,3,4]`), soll der Grad entsprechend aktualisiert werden:
+    ```py
+    v1.grad # = 3
+    v1.werte = [1,2,3,4]    # Das Attribut muss nicht werte heißen, such dir den Namen aus
+    v1.grad # = 4
+    ```
+12. Vektoren lassen sich wie listen und dicts mit .copy() kopieren (keine dunder Methode).
+13. Zwei Vektoren können miteinander verglichen werden, indem deren Betrag verglichen wird. 
 Hinweis: Auf der Liste der Dunder-Methoden gibt es einen Fehler dabei. 
 Die Methode heißt nicht `__rt__`, sondern `__gt__`:
     ```py
     v1 > v2 # True
     v2 > v3 # False
     ```
-13. Als bool soll der Vektor True sein, wenn seine Länge (abs) nicht 0 ist:
+14. Als bool soll der Vektor True sein, wenn seine Länge (abs) nicht 0 ist:
     ```py
     bool(v1) # True
     bool(Vektor(0, 0, 0)) # False
