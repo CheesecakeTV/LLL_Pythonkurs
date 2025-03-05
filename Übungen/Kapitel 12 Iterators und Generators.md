@@ -1,7 +1,8 @@
 
 ## Übung 12.1
 
-Entscheide für die folgende Typen, ob es sich um ein `Iterable`, einen `Iterator`, oder keins von beiden handelt.
+Entscheide für die folgende Typen, ob es sich (bei deren Instanzen) um
+`Iterable`, `Iterator`, keins von beiden, oder beides handelt.
 
 1. list
 2. dict
