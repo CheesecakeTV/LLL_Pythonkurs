@@ -29,7 +29,6 @@
 - pickle Modul
 - Mehrere Funktions-Rückgaben
 - Übungen 11.5 (Übersprungen)
-- Umfrage zum Kurs
 
 ## 12. Iterators und Generators (Früher Kapitel 14)
 
