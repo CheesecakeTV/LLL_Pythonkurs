@@ -153,7 +153,7 @@ Die einzelnen Teile sind unabhängig voneinander lösbar.
 dass jeweils nach dem Abstand zur übergebenen Zahl sortiert wird (Es soll für alle Zahlen 
 funktionieren, nicht nur für die hier genutzten).
 ```py
-def dieFunktion(abstandZu:int) -> int:
+def dieFunktion(abstandZu:int):
    pass
 
 # Ab hier nichts ändern!!!
