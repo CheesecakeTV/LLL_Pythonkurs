@@ -44,6 +44,7 @@ Diese Keys enthalten jeweils den Anmeldenamen des Windows-Nutzers, welchen du mi
 auslesen kannst.
 
 Erstelle die Klasse `Ordner`.
+
 10. Dieser wird ein Ordnerpfad übergeben, welcher mit einem Schrägstrich `/` endet, z.B.: `test/`.
 11. Beim Initialisieren mit der Klasse soll der entsprechende Ordner erstellt werden.
 Nutze dafür `os.mkdir(ordnerpfad)`.
