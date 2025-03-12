@@ -45,7 +45,9 @@ auslesen kannst.
 
 Erstelle die Klasse `Ordner`.
 
-10. Dieser wird ein Ordnerpfad übergeben, welcher mit einem Schrägstrich `/` endet, z.B.: `test/`.
+10. Dieser wird ein Ordnerpfad übergeben, welcher mit einem Schrägstrich `/` endet, z.B.: `test/`.\
+Hinweis: Einen längeren Ordnerpfad aus mehreren Ordnern, wie `test/hallo/welt/` zu erstellen
+ist schwierig, daher gehe davon aus, dass es nur ein einziger Unterordner ist.
 11. Beim Initialisieren mit der Klasse soll der entsprechende Ordner erstellt werden.
 Nutze dafür `os.mkdir(ordnerpfad)`.
 Wichtig: Teste was passiert, wenn du einen bestehenden Ordner "erstellst".
