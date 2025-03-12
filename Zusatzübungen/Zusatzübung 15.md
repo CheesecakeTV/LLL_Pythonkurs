@@ -55,6 +55,9 @@ Beim erstmaligen Erstellen dieser Datei wird der Key `nächsterName` auf `0` ges
 Diese soll eine neue `JsonFile` zurückgeben, welche in dem Ordner angelegt wird.
 Der Name dieser Datei ist der Key `nächsterName` der Json-File `_vars.json`.
 Nachdem die Datei erstellt wurde, wird `nächsterName` um `1` erhöht.
+14. Definiere die Methode `getAlle() -> list[JsonFile]`.
+Diese gibt eine Liste mit allen vorhandenen Json-Files im entsprechenden Ordner zurück.
+Tipp: `os.listdir()` ist hier hilfreich.
 
 
 
