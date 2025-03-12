@@ -40,7 +40,12 @@
   - Wie funktionieren zip und enumerate?
 - Übung 12.1
 - Bibliothek [Itertools](https://docs.python.org/3/library/itertools.html)
-  - Hier kommt noch Inhalt dazu...
+  - `count`
+  - `accumulate`
+  - `chain`
+    - `chain_from_iterable`
+  - `starmap`
+  - `tee`
 - Iteratoren aus eigener Klasse
 - Generator Comprehension
 
