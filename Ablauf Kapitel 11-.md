@@ -43,7 +43,6 @@
   - `count`
   - `accumulate`
   - `chain`
-    - `chain_from_iterable`
   - `starmap`
   - `tee`
 - Iteratoren aus eigener Klasse
