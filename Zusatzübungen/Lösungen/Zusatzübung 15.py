@@ -11,7 +11,7 @@ class JsonFile:
         }
         self._read()
 
-    def __getitem__(self, item):
+    def __getitem__(self, item) -> any:
         return self.werte[item]
 
     def __setitem__(self, key, value):
@@ -82,6 +82,8 @@ class Ordner:
         alleDateien = list()
         for name in os.listdir(self.pfad):
             alleDateien.append(JsonFile(self.pfad + name))
+
+        # alleDateien.sort(key= lambda a:int(a.split(".")[0]))
 
         return alleDateien
 
