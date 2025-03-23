@@ -54,22 +54,22 @@ Wird der Mauszeiger auf einen Knopf gehalten (nicht geklickt, nur drüber gehalt
 ![Knopfmatrix.png](img/Kapitel_12/12_4.png)
 
 
-
 ## Übung 14.5 
 
 1. Erstelle folgendes layout:\
-![12_5_1.png](img%2F12_5_1.png)\
+![img.png](img/Kapitel_14/img.png)
+
 (Das Theme ist DarkBrown)
 
 2. Erweitere das Layout um ein sg.Multiline:\
-![12_5_2.png](img%2F12_5_2.png)
+![img_1.png](img/Kapitel_14/img_1.png)
 
 3. Erstelle zwei Tabs. Ein Tab soll dein bisheriges Layout enthalten:\
-![12_5_3.png](img%2F12_5_3.png)
+![img_2.png](img/Kapitel_14/img_2.png)
 
 4. Der andere Tab soll 12 Frames mit dem Layout aus 1. enthalten.\
 Tipp: Denk dran, dass man meistens eine Funktion schreiben sollte, wenn man Code kopieren möchte.\
-![12_5_4.png](img%2F12_5_4.png)
+![img_3.png](img/Kapitel_14/img_3.png)
 
 
 
