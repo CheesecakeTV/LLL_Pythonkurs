@@ -62,7 +62,7 @@
 #### Decorators allgemein
 - Decorators als "normale" Funktion die eine Funktion zurückgibt
   - Decorator-Schreibweise
-- Argumente
+- Argumente von Decorators
   - Optionale Argumente
 - Übungen 13.1 - 13.3
 

@@ -50,19 +50,30 @@ Dieser speichert Ein- und Ausgabe jedes Funktionsaufrufs.
 Wird die Funktion mit bereits gespeicherten Argumenten aufgerufen, soll einfach nur die vorherige Rückgabe zurückgegeben werden.
 Die Funktion soll in dem Fall also nicht erneut aufgerufen werden.
 
-Du darfst annehmen, dass die "dekorierte" Funktion keine optionalen Argumente hat.
+Du darfst annehmen, dass die "dekorierte" Funktion keine optionalen/benannten Argumente hat.
 
 ```py
 @cacheRuckgabe
 def hoch(x,y):
-    print("Wenn du das siehst habe ich neu berechnet")
+    print("Wenn du das siehst, habe ich neu berechnet")
     return x ** y
 
-hoch(25,5) # Berechnen
-hoch(25,2) # Berechnen
+print(hoch(25,5)) # Berechnen
+print(hoch(25,2)) # Berechnen
 
-hoch(25,5) # Nicht berechnen, einfach vorheriges Ergebnis verwenden
+print(hoch(25,5)) # Nicht berechnen, einfach vorheriges Ergebnis verwenden
 ```
 
+Berechne die 35., 40. und 100, Fibonacci-Zahl mit folgender Funktion.
+Wenn die Berechnung zu lange dauert, nutze gerne deinen Decorator.
+```py
+def fib(n:int) -> int:
+    assert n > 0
+    
+    if n < 3:
+        return 1
+    
+    return fib(n - 1) + fib(n - 2)
+```
 
 
