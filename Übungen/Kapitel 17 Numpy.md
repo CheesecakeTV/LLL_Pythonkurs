@@ -76,8 +76,7 @@ Der Radius r berechnet sich so: $r = \sqrt{x² + y²}$
 
 1. Plotte das Potential der Situation in einem pcolor-Plot\
 ![img_16.png](img/Kapitel_17/img_16.png)
-2. Plotte das Potential entlang der X-Achse (Also für y = 0) in einem normalen Plot. 
-Die Plots müssen nicht nebeneinander sein wie im Bild zu sehen.\
+2. Plotte das Potential entlang der X-Achse (Also für y = 0) in einem normalen Plot.\
 ![img_17.png](img/Kapitel_17/img_17.png)
 
 Befinden sich mehrere dieser Ladungs-Kugeln im Raum, addieren sich deren Potentiale. 
@@ -87,7 +86,7 @@ so berechnen: $r = \sqrt{ (x - x_{Kugel})² + (y - y_{Kugel})² }$
 3. Schreibe die Funktion `getPotential(posX:float, posY:float)->np.ndarray`.
 Diese gibt das Potential, also das, was in 1. geplottet wurde, zurück.\
 Übergeben wird die Position der Kugel.\
-**Diesen Schritt nicht überspringen:** Teste die Funktion, indem du die Berechnung aus a) mit der Funktion ersetzt.
+**Diesen Schritt nicht überspringen:** Teste die Funktion, indem du die Berechnung aus 1. mit der Funktion ersetzt.
 4. Statt einer einzigen mittigen Kugel gibt es jetzt 3 Kugeln mit folgenden Koordinaten:
 (3,0), (-3,2), (0,-2)\
 Plotte die neue Situation, indem du deine erstellte Funktion nutzt.\
@@ -160,6 +159,7 @@ Wurde in der 7er Folge häufiger 1 empfangen als -1, wird die gesamte Folge als 
 
 9. Implementiere diese Verbesserung. Warum werden 7 statt 8 Samples genutzt?
    1. Optional: Nutze keine Schleifen und lass trotzdem die Möglichkeit, die 7 ohne Aufwand in eine andere Zahl zu ändern.
+   Tipp: Denk an die Funktionsweise von `np.meshgrid`
 
 
 
