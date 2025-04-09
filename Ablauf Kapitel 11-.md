@@ -97,7 +97,7 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
 - enableEvents
 - Fenster schließen
 - Themes
-- Übung 12.1
+- Übung 14.1
 - Listen-Elemente
 - List (ist Schrott)
 - Table
@@ -105,20 +105,20 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
   - col_width
   - headings
   - justification
-- Übungen 12.2, 12.3
+- Übungen 14.2, 14.3
 - TKinter Events
   - https://web.archive.org/web/20201111211515id_/https://effbot.org/tkinterbook/tkinter-events-and-bindings.htm#events
 - timeout-event
 - .update()
   - color, button_color
-- Übung 12.4
+- Übung 14.4
 - sg-Popups
 - Columns
 - Frames
 - vertical_alignment
 - element_justification
 - TabGroups
-- Übung 12.5
+- Übung 14.5
 
 [Weitere Tutorials zur Bibliothek](https://docs.pysimplegui.com/en/latest/cookbook/original/)
 
