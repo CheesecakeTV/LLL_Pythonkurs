@@ -130,7 +130,6 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
 
 #### Multithreading
 - Warum Multithreading?
-  - Beispiel an meinem Inventarsystem
 - Unterschied zwischen Multithreading und Multiprocessing
 - Numba jit
 - Zusätzliche Threads starten
@@ -162,6 +161,21 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
   - https://docs.python.org/3.11/library/multiprocessing.html#module-multiprocessing.pool
 - Übung 13.5
 
+## 14. (Teil 2) Benutzeroberflächen mit PySimpleGUI
+
+- Multithreading in PySimpleGUI
+- Elemente mit target
+
+#### Diverse Praxistipps
+
+- Funktionen als Key
+- Tuple als Key
+- Eigenes Layout-Element erstellen
+- Emojis
+- sg.rgb
+- fill_form_with_values
+- Clipboard
+- sg.main()
 
 ## 16. RegEx
 
