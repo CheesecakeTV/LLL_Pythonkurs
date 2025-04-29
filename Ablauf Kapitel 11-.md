@@ -266,7 +266,31 @@ Ich persönlich finde RegEx super, verstehe aber auch, warum man keinen Bock dar
   - xLabel, yLabel
   - xTicks, yTicks
 
+## 17. Kryptographie
 
+#### Theoretische Grundlagen
+- Eigenschaften von Verschlüsselungen und Negativbeispiele
+  - Caeser (Substitution)
+  - Vigenère (Polyalphabetisch)
+  - Skytale (Transposition)
+- XOR-Verknüpfungen
+  - Warum XOR statt Addition?
+  - Vernam-Chiffre
+- Ansätze zur Entschlüsselung, Fehler in Verschlüsselungen
+  - Häufigkeitsanalyse
+    - Häufigkeitsanalyse von 2er-Folgen
+  - Enigma (Bekannte Klartextstücke, Rückführung)
+  - DVD-Verschlüsselung ("Security-By-Obscurity")
+  - Brute-Force
+  - Nachdenken (Analytische Lösungen)
+  - Quantencomputer
+- AES
+- Key-Derivation
+  - Argon2
+- Hashing
+
+#### Praxis
+...
 
 ## X. Unsortiertes
 
