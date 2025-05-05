@@ -160,6 +160,9 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
   - map
   - https://docs.python.org/3.11/library/multiprocessing.html#module-multiprocessing.pool
 - Übung 13.5
+- Manager
+- Queue
+- Pipe
 
 ## 14. (Teil 2) Benutzeroberflächen mit PySimpleGUI
 
