@@ -1,9 +1,9 @@
 
 ## Zusatzübung 17: Benutzeroberflächen, Threading
 
-Wer beim schreiben besonders klug wirken will, schlägt gerne mal die Bedeutung
-einzelner Wörter auf duden.de nach.
-In dieser Zusatzübung programmieren wir ein Tool, was dies erleichtern soll.
+Es gibt tatsächlich Menschen, die Bedeutungen von Wörtern die sie nicht kennen auf
+duden.de nachschlagen.
+In dieser Zusatzübung programmieren wir ein Tool, was das Nachschlagen erleichtern soll.
 
 Halte dich beim programmieren an den unten stehenden Ablauf, dann hast du es deutlich einfacher.
 
