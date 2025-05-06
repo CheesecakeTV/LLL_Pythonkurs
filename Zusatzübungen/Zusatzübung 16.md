@@ -36,6 +36,8 @@ recherchiert werden. Um es einfach zu halten, nutze nur das erste Suchergebnis.
 Gib das Ergebnis testweise auf der Konsole aus.
 Beachte, dass das Programm nicht abstürzen soll, wenn kein Ergebnis gefunden wurde.
 8. Es soll auf einem anderen Thread gesucht werden.
+Die Suche soll aber natürlich nur dann laufen, wenn das Wort geändert wurde. 
+Tipp: Der Thread soll quasi ein- und ausgeschaltet werden. Denk an Übung 15.2.
 9. Ist die Suche abgeschlossen, wird das Wort und die Definition im Multiline ausgegeben.
 
 Zusätzliche Teile, um auch für die Schnellen unter euch eine Herausforderung zu schaffen:
