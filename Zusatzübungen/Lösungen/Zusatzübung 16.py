@@ -23,7 +23,7 @@ def getWortDesTages() -> None:
                         "Wort des Tages:\n\n" +
                         wortDesTages.name +
                         "\n\n" +
-                        wortDesTages.meaning_overview
+                        str(wortDesTages.meaning_overview)
                         )
 
 threading.Thread(target=getWortDesTages,daemon=True).start()
@@ -31,19 +31,14 @@ threading.Thread(target=getWortDesTages,daemon=True).start()
 neuesWortEvent = threading.Event()
 def sucheWort() -> None:
     while True:
-        print("Suche")
         neuesWortEvent.wait()
         neuesWortEvent.clear()
 
         gefunden = duden.search(v["Suchleiste"].strip(),exact=False)
 
-        print("Gefunden:",gefunden)
-
-        if not gefunden:
-            w.write_event_value("Gefunden",[])
-            continue
-
         w.write_event_value("Gefunden",gefunden)
+
+threading.Thread(target=sucheWort,daemon=True).start()
 
 def wordOffnen(dasWort):
     if dasWort is None:
@@ -52,7 +47,6 @@ def wordOffnen(dasWort):
 
     bedeutung = dasWort.meaning_overview
     if isinstance(bedeutung,list):
-        print(bedeutung)
         bedeutung = "\n\n".join(map(str,bedeutung))
     elif bedeutung is None:
         bedeutung = "-- keine Bedeutung --"
@@ -62,8 +56,6 @@ def wordOffnen(dasWort):
         "\n\n" +
         bedeutung
     )
-
-threading.Thread(target=sucheWort,daemon=True).start()
 
 vorherigeSuche = ""
 vorherigeErgebnisse = []
@@ -85,15 +77,14 @@ while True:
 
     if e == "Gefunden":
         vorherigeErgebnisse = v["Gefunden"]
-        w["Tabelle"](list(map(lambda a:[a],vorherigeErgebnisse)))
+        w["Tabelle"](map(lambda a:[a],vorherigeErgebnisse))
+
         if vorherigeErgebnisse:
             wordOffnen(vorherigeErgebnisse[0])
             w["Tabelle"].update(select_rows=[0])
 
     if e == "Tabelle" and v["Tabelle"]:
-        wordOffnen(vorherigeErgebnisse[
-                       v["Tabelle"][0]
-                   ])
+        wordOffnen(vorherigeErgebnisse[v["Tabelle"][0]])
 
 
 
