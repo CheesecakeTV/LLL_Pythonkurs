@@ -40,7 +40,7 @@ Die Suche soll aber natürlich nur dann laufen, wenn das Wort geändert wurde.
 Tipp: Der Thread soll quasi ein- und ausgeschaltet werden. Denk an Übung 15.2.
 9. Ist die Suche abgeschlossen, wird das Wort und die Definition im Multiline ausgegeben.
 
-Zusätzliche Teile, um auch für die Schnellen unter euch eine Herausforderung zu schaffen:
+Zusätzliche Teile, um auch für die Schnellen unter euch eine Herausforderung zu schaffen:\
 
 10. Alle gefundenen Ergebnisse werden in der Tabelle gelistet.
 Das erste Ergebnis wird wie gehabt sofort auf dem Multiline ausgegeben.
