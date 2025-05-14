@@ -137,7 +137,7 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
 - Informationen vom einen Thread zum nächsten Transportieren
   - Argumente an den Thread übergeben
   - Globale Variablen
-- Übung 13.1
+- Übung 15.1
 
 #### Synchronisation
 - https://docs.python.org/3/library/threading.html#event-objects
@@ -150,19 +150,26 @@ Wir nutzen FreeSimpleGUI, ist aber identisch zu PySimpleGUI
   - Event (Ein-/Ausschalter)
 - Timer
   - cancel
-- Übungen 13.2, 13.3
+- Übungen 15.2, 15.3
 - Threads mit PySimpleGUI
-- Übung 13.4
+- Übung 15.4
 
 #### Multiprocessing
 - Was ist anders zum Multithreading?
 - Pools
   - map
   - https://docs.python.org/3.11/library/multiprocessing.html#module-multiprocessing.pool
-- Übung 13.5
+- Übung 15.5
 - Manager
 - Queue
+  - put
+  - get
 - Pipe
+  - send
+  - recv
+  - send_bytes
+  - recv_bytes
+  - poll
 
 ## 14. (Teil 2) Benutzeroberflächen mit PySimpleGUI
 
