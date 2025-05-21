@@ -276,7 +276,7 @@ Ich persönlich finde RegEx super, verstehe aber auch, warum man keinen Bock dar
   - xLabel, yLabel
   - xTicks, yTicks
 
-## 17. Kryptographie
+## 18. Kryptographie
 
 #### Theoretische Grundlagen
 - Eigenschaften von Verschlüsselungen und Negativbeispiele
