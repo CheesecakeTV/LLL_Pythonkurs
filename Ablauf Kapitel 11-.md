@@ -300,6 +300,7 @@ Ich persönlich finde RegEx super, verstehe aber auch, warum man keinen Bock dar
   - Hash collision
   - Nachricht vor Veränderung schützen
   - Kategorisierung mittels Hashing
+  - Rainbow-Tables
 - Key-Derivation
   - Argon2
 - Asymmetrische Verschlüsselung
