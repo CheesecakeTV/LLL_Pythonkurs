@@ -278,29 +278,39 @@ Ich persönlich finde RegEx super, verstehe aber auch, warum man keinen Bock dar
 
 ## 18. Kryptographie
 
-#### Theoretische Grundlagen
 - Eigenschaften von Verschlüsselungen und Negativbeispiele
+  - Skytale (Transposition)
   - Caeser (Substitution)
   - Vigenère (Polyalphabetisch)
-  - Skytale (Transposition)
+  - Vernam-Chiffre
+  - Enigma (Bekannte Klartextstücke, Rückführung)
 - XOR-Verknüpfungen
   - Warum XOR statt Addition?
-  - Vernam-Chiffre
 - Ansätze zur Entschlüsselung, Fehler in Verschlüsselungen
   - Häufigkeitsanalyse
     - Häufigkeitsanalyse von 2er-Folgen
-  - Enigma (Bekannte Klartextstücke, Rückführung)
   - DVD-Verschlüsselung ("Security-By-Obscurity")
   - Brute-Force
   - Nachdenken (Analytische Lösungen)
   - Quantencomputer
 - AES
+  - Bild von dem Pinguin
+  - AES Modes
+- Hashing
+  - Hash collision
+  - Nachricht vor Veränderung schützen
+  - Kategorisierung mittels Hashing
 - Key-Derivation
   - Argon2
-- Hashing
+- Asymmetrische Verschlüsselung
+  - RSA
+  - ECC
+  - Signieren von Dateien
+- Key exchange
+  - Diffie-Hellmann
+  - Man-in-the-middle-attack
+    - Website-Zertifikate
 
-#### Praxis
-...
 
 ## X. Unsortiertes
 
